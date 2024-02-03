@@ -20,7 +20,7 @@ df = spark.read.csv(file_path, header=True)
 
 # Define the columns you want to include in the hash keydsd
 column1 = "First Name"  # Replace with the actual column name
-column2 = "Last Name"  # Replace with the actual column name
+column2 = "Last Name"  # Replace with the actual column namexsxs
 # Extract the first 2 characters from the first column
 first_2_chars = col(column1).substr(1, 2)
 
