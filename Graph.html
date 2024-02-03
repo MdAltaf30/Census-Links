@@ -1,0 +1,368 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="C17">C17</option>
+                                
+                                    <option value="C18">C18</option>
+                                
+                                    <option value="C11">C11</option>
+                                
+                                    <option value="C6">C6</option>
+                                
+                                    <option value="C4">C4</option>
+                                
+                                    <option value="C5">C5</option>
+                                
+                                    <option value="C10">C10</option>
+                                
+                                    <option value="C9">C9</option>
+                                
+                                    <option value="C15">C15</option>
+                                
+                                    <option value="C14">C14</option>
+                                
+                                    <option value="C16">C16</option>
+                                
+                                    <option value="C19">C19</option>
+                                
+                                    <option value="C20">C20</option>
+                                
+                                    <option value="C12">C12</option>
+                                
+                                    <option value="C13">C13</option>
+                                
+                                    <option value="C7">C7</option>
+                                
+                                    <option value="C8">C8</option>
+                                
+                                    <option value="C1">C1</option>
+                                
+                                    <option value="C2">C2</option>
+                                
+                                    <option value="C3">C3</option>
+                                
+                                    <option value="a1">a1</option>
+                                
+                                    <option value="a2">a2</option>
+                                
+                                    <option value="a3">a3</option>
+                                
+                                    <option value="b1">b1</option>
+                                
+                                    <option value="b2">b2</option>
+                                
+                                    <option value="b3">b3</option>
+                                
+                                    <option value="c1">c1</option>
+                                
+                                    <option value="c2">c2</option>
+                                
+                                    <option value="c3">c3</option>
+                                
+                                    <option value="d1">d1</option>
+                                
+                                    <option value="d2">d2</option>
+                                
+                                    <option value="d3">d3</option>
+                                
+                                    <option value="e1">e1</option>
+                                
+                                    <option value="e2">e2</option>
+                                
+                                    <option value="e3">e3</option>
+                                
+                                    <option value="f1">f1</option>
+                                
+                                    <option value="f2">f2</option>
+                                
+                                    <option value="f3">f3</option>
+                                
+                                    <option value="g1">g1</option>
+                                
+                                    <option value="g2">g2</option>
+                                
+                                    <option value="g3">g3</option>
+                                
+                                    <option value="h1">h1</option>
+                                
+                                    <option value="h2">h2</option>
+                                
+                                    <option value="h3">h3</option>
+                                
+                                    <option value="i1">i1</option>
+                                
+                                    <option value="i2">i2</option>
+                                
+                                    <option value="i3">i3</option>
+                                
+                                    <option value="j1">j1</option>
+                                
+                                    <option value="j2">j2</option>
+                                
+                                    <option value="j3">j3</option>
+                                
+                                    <option value="k1">k1</option>
+                                
+                                    <option value="k2">k2</option>
+                                
+                                    <option value="k3">k3</option>
+                                
+                                    <option value="l1">l1</option>
+                                
+                                    <option value="l2">l2</option>
+                                
+                                    <option value="l3">l3</option>
+                                
+                                    <option value="m1">m1</option>
+                                
+                                    <option value="m2">m2</option>
+                                
+                                    <option value="n1">n1</option>
+                                
+                                    <option value="n2">n2</option>
+                                
+                                    <option value="o1">o1</option>
+                                
+                                    <option value="o2">o2</option>
+                                
+                                    <option value="o3">o3</option>
+                                
+                                    <option value="p1">p1</option>
+                                
+                                    <option value="p2">p2</option>
+                                
+                                    <option value="p3">p3</option>
+                                
+                                    <option value="q1">q1</option>
+                                
+                                    <option value="q2">q2</option>
+                                
+                                    <option value="q3">q3</option>
+                                
+                                    <option value="r1">r1</option>
+                                
+                                    <option value="r2">r2</option>
+                                
+                                    <option value="r3">r3</option>
+                                
+                                    <option value="s1">s1</option>
+                                
+                                    <option value="s2">s2</option>
+                                
+                                    <option value="s3">s3</option>
+                                
+                                    <option value="t1">t1</option>
+                                
+                                    <option value="t2">t2</option>
+                                
+                                    <option value="t3">t3</option>
+                                
+                                    <option value="u1">u1</option>
+                                
+                                    <option value="u2">u2</option>
+                                
+                                    <option value="u3">u3</option>
+                                
+                                    <option value="v1">v1</option>
+                                
+                                    <option value="v2">v2</option>
+                                
+                                    <option value="v3">v3</option>
+                                
+                                    <option value="w1">w1</option>
+                                
+                                    <option value="w2">w2</option>
+                                
+                                    <option value="w3">w3</option>
+                                
+                                    <option value="x1">x1</option>
+                                
+                                    <option value="x2">x2</option>
+                                
+                                    <option value="x3">x3</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "blue", "font": {"color": "white"}, "id": "C17", "image": "Image.png", "label": "C17", "shape": "image", "size": 30, "title": "C17"}, {"color": "blue", "font": {"color": "white"}, "id": "C18", "image": "Image.png", "label": "C18", "shape": "image", "size": 30, "title": "C18"}, {"color": "blue", "font": {"color": "white"}, "id": "C11", "image": "Image.png", "label": "C11", "shape": "image", "size": 30, "title": "C11"}, {"color": "blue", "font": {"color": "white"}, "id": "C6", "image": "Image.png", "label": "C6", "shape": "image", "size": 30, "title": "C6"}, {"color": "blue", "font": {"color": "white"}, "id": "C4", "image": "Image.png", "label": "C4", "shape": "image", "size": 30, "title": "C4"}, {"color": "blue", "font": {"color": "white"}, "id": "C5", "image": "Image.png", "label": "C5", "shape": "image", "size": 30, "title": "C5"}, {"color": "blue", "font": {"color": "white"}, "id": "C10", "image": "Image.png", "label": "C10", "shape": "image", "size": 30, "title": "C10"}, {"color": "blue", "font": {"color": "white"}, "id": "C9", "image": "Image.png", "label": "C9", "shape": "image", "size": 30, "title": "C9"}, {"color": "blue", "font": {"color": "white"}, "id": "C15", "image": "Image.png", "label": "C15", "shape": "image", "size": 30, "title": "C15"}, {"color": "blue", "font": {"color": "white"}, "id": "C14", "image": "Image.png", "label": "C14", "shape": "image", "size": 30, "title": "C14"}, {"color": "blue", "font": {"color": "white"}, "id": "C16", "image": "Image.png", "label": "C16", "shape": "image", "size": 30, "title": "C16"}, {"color": "blue", "font": {"color": "white"}, "id": "C19", "image": "Image.png", "label": "C19", "shape": "image", "size": 30, "title": "C19"}, {"color": "blue", "font": {"color": "white"}, "id": "C20", "image": "Image.png", "label": "C20", "shape": "image", "size": 30, "title": "C20"}, {"color": "blue", "font": {"color": "white"}, "id": "C12", "image": "Image.png", "label": "C12", "shape": "image", "size": 30, "title": "C12"}, {"color": "blue", "font": {"color": "white"}, "id": "C13", "image": "Image.png", "label": "C13", "shape": "image", "size": 30, "title": "C13"}, {"color": "blue", "font": {"color": "white"}, "id": "C7", "image": "Image.png", "label": "C7", "shape": "image", "size": 30, "title": "C7"}, {"color": "blue", "font": {"color": "white"}, "id": "C8", "image": "Image.png", "label": "C8", "shape": "image", "size": 30, "title": "C8"}, {"color": "blue", "font": {"color": "white"}, "id": "C1", "image": "Image.png", "label": "C1", "shape": "image", "size": 30, "title": "C1"}, {"color": "blue", "font": {"color": "white"}, "id": "C2", "image": "Image.png", "label": "C2", "shape": "image", "size": 30, "title": "C2"}, {"color": "blue", "font": {"color": "white"}, "id": "C3", "image": "Image.png", "label": "C3", "shape": "image", "size": 30, "title": "C3"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "a1", "image": "person.png", "label": "ALIVIA HOGAN", "shape": "image", "size": 15, "text_color": "white", "title": "ALIVIA HOGAN,44 E. WEST ST ASHLAND,OHIO"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "a2", "image": "person.png", "label": "GIANCARLO HOGAN", "shape": "image", "size": 15, "text_color": "white", "title": "GIANCARLO HOGAN,44 E. W STREET ASHLAND,OH"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "a3", "image": "person.png", "label": "MADISYN HOGAN", "shape": "image", "size": 15, "text_color": "white", "title": "MADISYN HOGAN,44 E. W ST AL,OH"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "b1", "image": "person.png", "label": "ALIVIA HOGAN", "shape": "image", "size": 15, "text_color": "white", "title": "ALIVIA HOGAN,131 IROQUOIS ST SG,MI"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "b2", "image": "person.png", "label": "GIANCARLO HOGAN", "shape": "image", "size": 15, "text_color": "white", "title": "GIANCARLO HOGAN,131 IROQUOIS STREET SOUTHGATE,MIAMI"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "b3", "image": "person.png", "label": "MADISYN HOGAN", "shape": "image", "size": 15, "text_color": "white", "title": "MADISYN HOGAN,131 IROQUOIS STREET SG,MIAMI"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "c1", "image": "person.png", "label": "KAYLIN LYONS", "shape": "image", "size": 15, "text_color": "white", "title": "KAYLIN LYONS,8779 WINDSOR STREET. FUQUAY VARINA,NC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "c2", "image": "person.png", "label": "ANGELA WHEELER", "shape": "image", "size": 15, "text_color": "white", "title": "ANGELA WHEELER,8779 WINDSOR ST. FUQUAY VARINA,NC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "c3", "image": "person.png", "label": "GERARDO MAYS", "shape": "image", "size": 15, "text_color": "white", "title": "GERARDO MAYS,8779 WINDSOR ST. FUQUAY VARINA,NORTH CAROLINA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "d1", "image": "person.png", "label": "KAYLIN LYONS", "shape": "image", "size": 15, "text_color": "white", "title": "KAYLIN LYONS,611 PENN STR LONG BRANCH,NJ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "d2", "image": "person.png", "label": "ANGELA WHEELER", "shape": "image", "size": 15, "text_color": "white", "title": "ANGELA WHEELER,611 PENN STREET LONG BRANCH,NJ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "d3", "image": "person.png", "label": "GERARDO MAYS", "shape": "image", "size": 15, "text_color": "white", "title": "GERARDO MAYS,611 PENN ST LONG BRANCH,NEW JERSEY"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "e1", "image": "person.png", "label": "KAYLA WILLIS", "shape": "image", "size": 15, "text_color": "white", "title": "KAYLA WILLIS,7075 PRINCESS ST LINDEN,NJ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "e2", "image": "person.png", "label": "VIRGINIA CROSBY", "shape": "image", "size": 15, "text_color": "white", "title": "VIRGINIA CROSBY,7075 PRINCESS STREET LINDEN,NEW JERSEY"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "e3", "image": "person.png", "label": "IRIS BOWEN", "shape": "image", "size": 15, "text_color": "white", "title": "IRIS BOWEN,7075 PRINCESS STREET LINDEN,NJ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "f1", "image": "person.png", "label": "KAYLA WILLIS", "shape": "image", "size": 15, "text_color": "white", "title": "KAYLA WILLIS,132 T R,MONTGOMERY AL"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "f2", "image": "person.png", "label": "VIRGINIA CROSBY", "shape": "image", "size": 15, "text_color": "white", "title": "VIRGINIA CROSBY,132 TENSAW RD,MONTGOMERY AL"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "f3", "image": "person.png", "label": "IRIS BOWEN", "shape": "image", "size": 15, "text_color": "white", "title": "IRIS BOWEN,132 TENSAW ROAD,MONTGOMERY AL"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "g1", "image": "person.png", "label": "SABRINA ANDREWS", "shape": "image", "size": 15, "text_color": "white", "title": "SABRINA ANDREWS,7459 GULF L. RAEFORD,NC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "g2", "image": "person.png", "label": "ELENA CURTIS", "shape": "image", "size": 15, "text_color": "white", "title": "ELENA CURTIS,7459 GULF LANE RAEFORD,NORTH CAROLINA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "g3", "image": "person.png", "label": "RUBY HOPKINS", "shape": "image", "size": 15, "text_color": "white", "title": "RUBY HOPKINS,7459 G LANE RAEFORD,NC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "h1", "image": "person.png", "label": "SABRINA ANDREWS", "shape": "image", "size": 15, "text_color": "white", "title": "SABRINA ANDREWS,4667 BENNING RD SOUTHEAST,WASHINGTON AR"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "h2", "image": "person.png", "label": "ELENA CURTIS", "shape": "image", "size": 15, "text_color": "white", "title": "ELENA CURTIS,4667 BENNING ROAD SOUTHEAST,WASHINGTON ARKANSAS"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "h3", "image": "person.png", "label": "RUBY HOPKINS", "shape": "image", "size": 15, "text_color": "white", "title": "RUBY HOPKINS,4667 BENNING R. SOUTHEAST,WASHINGTON AR"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "i1", "image": "person.png", "label": "TAMIA DUNN", "shape": "image", "size": 15, "text_color": "white", "title": "TAMIA DUNN,809 N PEG SHOP DR. LADSON,SC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "i2", "image": "person.png", "label": "CARINA BURNETT", "shape": "image", "size": 15, "text_color": "white", "title": "CARINA BURNETT,809 NORTH PEG SHOP DRIVE LADSON,SC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "i3", "image": "person.png", "label": "PRESLEY COLON", "shape": "image", "size": 15, "text_color": "white", "title": "PRESLEY COLON,809 NORTH PEG SHOP DR. LADSON,SC"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "j1", "image": "person.png", "label": "TAMIA DUNN", "shape": "image", "size": 15, "text_color": "white", "title": "TAMIA DUNN,9057 VERMONT RD COCKEYSVILLE,MD"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "j2", "image": "person.png", "label": "CARINA BURNETT", "shape": "image", "size": 15, "text_color": "white", "title": "CARINA BURNETT,9057 VERMONT ROAD COCKEYSVILLE,MD"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "j3", "image": "person.png", "label": "PRESLEY COLON", "shape": "image", "size": 15, "text_color": "white", "title": "PRESLEY COLON,9057 VERMONT R. COCKEYSVILLE,MD"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "k1", "image": "person.png", "label": "JEWEL ZIMMERMAN", "shape": "image", "size": 15, "text_color": "white", "title": "JEWEL ZIMMERMAN,401 FAIRHILL CRT,ANNAPOLIS MD"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "k2", "image": "person.png", "label": "PRINCE HOFFMAN", "shape": "image", "size": 15, "text_color": "white", "title": "PRINCE HOFFMAN,401 FAIRHILL COURT,ANNAPOLIS MD"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "k3", "image": "person.png", "label": "GAVIN BRAY", "shape": "image", "size": 15, "text_color": "white", "title": "GAVIN BRAY,401 FAIRHILL COURT,ANNAPOLIS MD"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "l1", "image": "person.png", "label": "JEWEL ZIMMERMAN", "shape": "image", "size": 15, "text_color": "white", "title": "JEWEL ZIMMERMAN,1521 159TH AVE,SAN LEANDRO CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "l2", "image": "person.png", "label": "PRINCE HOFFMAN", "shape": "image", "size": 15, "text_color": "white", "title": "PRINCE HOFFMAN,1521 159TH AVENUE,SA. CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "l3", "image": "person.png", "label": "GAVIN BRAY", "shape": "image", "size": 15, "text_color": "white", "title": "GAVIN BRAY,1521 159TH AVENUE,SAN LEANDRO CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "m1", "image": "person.png", "label": "SEAMUS LOWE", "shape": "image", "size": 15, "text_color": "white", "title": "SEAMUS LOWE,883 RODNEY DR,NASHVILLE TN"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "m2", "image": "person.png", "label": "NOEL ATKINSON", "shape": "image", "size": 15, "text_color": "white", "title": "NOEL ATKINSON,883 RODNEY DRIVE,NASHVILLE TN"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "n1", "image": "person.png", "label": "SEAMUS LOWE", "shape": "image", "size": 15, "text_color": "white", "title": "SEAMUS LOWE,832 51ST STREET NE,WASHINGTON AR"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "n2", "image": "person.png", "label": "NOEL ATKINSON", "shape": "image", "size": 15, "text_color": "white", "title": "NOEL ATKINSON,832 51ST STR NORTHEAST,WASHINGTON AR"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "o1", "image": "person.png", "label": "JOEY FLOWERS", "shape": "image", "size": 15, "text_color": "white", "title": "JOEY FLOWERS,1427 H ST,ANCHORAGE AK"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "o2", "image": "person.png", "label": "ADALYN LE", "shape": "image", "size": 15, "text_color": "white", "title": "ADALYN LE,1427 H STREET,ANCHORAGE AK"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "o3", "image": "person.png", "label": "CHANA YOUNG", "shape": "image", "size": 15, "text_color": "white", "title": "CHANA YOUNG,1427 H ST,ANCHORAGE AK"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "p1", "image": "person.png", "label": "JOEY FLOWERS", "shape": "image", "size": 15, "text_color": "white", "title": "JOEY FLOWERS,8772 W 79TH AVE,ARVADA CO"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "p2", "image": "person.png", "label": "ADALYN LE", "shape": "image", "size": 15, "text_color": "white", "title": "ADALYN LE,8772 WEST 79TH AVE,ARVADA CO"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "p3", "image": "person.png", "label": "CHANA YOUNG", "shape": "image", "size": 15, "text_color": "white", "title": "CHANA YOUNG,8772 W 79TH AVENUE,ARVADA CO"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "q1", "image": "person.png", "label": "RAYAN GARDNER", "shape": "image", "size": 15, "text_color": "white", "title": "RAYAN GARDNER,712 WILSONWOOD P,NASHVILLE TN"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "q2", "image": "person.png", "label": "VINCENT LARSEN", "shape": "image", "size": 15, "text_color": "white", "title": "VINCENT LARSEN,712 WILSONWOOD PLACE,NASHVILLE TN"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "q3", "image": "person.png", "label": "NAYELI MERCER", "shape": "image", "size": 15, "text_color": "white", "title": "NAYELI MERCER,712 WILSONWOOD PLACE,NASHVILLE TN"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "r1", "image": "person.png", "label": "RAYAN GARDNER", "shape": "image", "size": 15, "text_color": "white", "title": "RAYAN GARDNER,42223 EDGEWOOD STR,FREMONT CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "r2", "image": "person.png", "label": "VINCENT LARSEN", "shape": "image", "size": 15, "text_color": "white", "title": "VINCENT LARSEN,42223 EW STREET,FREMONT CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "r3", "image": "person.png", "label": "NAYELI MERCER", "shape": "image", "size": 15, "text_color": "white", "title": "NAYELI MERCER,42223 EDGEWOOD ST,FREMONT CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "s1", "image": "person.png", "label": "ANIYA WINTERS", "shape": "image", "size": 15, "text_color": "white", "title": "ANIYA WINTERS,2821 T PLACE,LOUISVILLE KY"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "s2", "image": "person.png", "label": "CARLO WILLIAMSON", "shape": "image", "size": 15, "text_color": "white", "title": "CARLO WILLIAMSON,2821 TYSON PL,LOUISVILLE KY"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "s3", "image": "person.png", "label": "KALE ARMSTRONG", "shape": "image", "size": 15, "text_color": "white", "title": "KALE ARMSTRONG,2821 TYSON PLACE,LOUISVILLE KY"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "t1", "image": "person.png", "label": "ANIYA WINTERS", "shape": "image", "size": 15, "text_color": "white", "title": "ANIYA WINTERS,1536 N MAIN STREET,SALINAS CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "t2", "image": "person.png", "label": "CARLO WILLIAMSON", "shape": "image", "size": 15, "text_color": "white", "title": "CARLO WILLIAMSON,1536 N MAIN ST,SALINAS CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "t3", "image": "person.png", "label": "KALE ARMSTRONG", "shape": "image", "size": 15, "text_color": "white", "title": "KALE ARMSTRONG,1536 NORTH MAIN STR,SALINAS CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "u1", "image": "person.png", "label": "JAYVION HANSEN", "shape": "image", "size": 15, "text_color": "white", "title": "JAYVION HANSEN,31250 COURTHOUSE DR,UNION CITY CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "u2", "image": "person.png", "label": "GERALD MARTINEZ", "shape": "image", "size": 15, "text_color": "white", "title": "GERALD MARTINEZ,31250 COURTHOUSE D,UNION CITY CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "u3", "image": "person.png", "label": "AVERY SAUNDERS", "shape": "image", "size": 15, "text_color": "white", "title": "AVERY SAUNDERS,31250 COURTHOUSE DRIVE,UNION CITY CA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "v1", "image": "person.png", "label": "JAYVION HANSEN", "shape": "image", "size": 15, "text_color": "white", "title": "JAYVION HANSEN,405 FLINT R COURT,NORMAN OK"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "v2", "image": "person.png", "label": "GERALD MARTINEZ", "shape": "image", "size": 15, "text_color": "white", "title": "GERALD MARTINEZ,405 FLINT RIDGE CRT,NORMAN OK"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "v3", "image": "person.png", "label": "AVERY SAUNDERS", "shape": "image", "size": 15, "text_color": "white", "title": "AVERY SAUNDERS,405 FLINT RIDGE C,NORMAN OK"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "w1", "image": "person.png", "label": "LANE BROCK", "shape": "image", "size": 15, "text_color": "white", "title": "LANE BROCK,5628 WEST TONOPAH DR,GLENDALE AZ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "w2", "image": "person.png", "label": "DOMINIQUE WALTON", "shape": "image", "size": 15, "text_color": "white", "title": "DOMINIQUE WALTON,5628 W TONOPAH DRIVE,GLENDALE AZ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "w3", "image": "person.png", "label": "GISELLE MCKNIGHT", "shape": "image", "size": 15, "text_color": "white", "title": "GISELLE MCKNIGHT,5628 WEST TONOPAH DRIVE,GLENDALE AZ"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "x1", "image": "person.png", "label": "LANE BROCK", "shape": "image", "size": 15, "text_color": "white", "title": "LANE BROCK,475 MPL STREET,HOLYOKE MA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "x2", "image": "person.png", "label": "DOMINIQUE WALTON", "shape": "image", "size": 15, "text_color": "white", "title": "DOMINIQUE WALTON,475 MAPLE ST,HOLYOKE MA"}, {"color": "#97c2fc", "font": {"color": "white"}, "id": "x3", "image": "person.png", "label": "GISELLE MCKNIGHT", "shape": "image", "size": 15, "text_color": "white", "title": "GISELLE MCKNIGHT,475 MAPLE STR,HOLYOKE MA"}]);
+                  edges = new vis.DataSet([{"arrowStrikethrough": false, "color": "white", "from": "C17", "to": "C18", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C11", "to": "C6", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C4", "to": "C5", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C10", "to": "C9", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C15", "to": "C4", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C11", "to": "C14", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C15", "to": "C16", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C19", "to": "C20", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C12", "to": "C13", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C11", "to": "C12", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C7", "to": "C8", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C11", "to": "C13", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C1", "to": "C2", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C3", "to": "C4", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C16", "to": "C4", "width": 2}, {"arrowStrikethrough": false, "color": "white", "from": "C3", "to": "C6", "width": 2}, {"color": "#00ff00", "from": "C1", "to": "a1", "width": 2}, {"color": "#00ff00", "from": "C1", "to": "a2", "width": 2}, {"color": "#00ff00", "from": "C1", "to": "a3", "width": 2}, {"color": "#00ff00", "from": "C2", "to": "b1", "width": 2}, {"color": "#00ff00", "from": "C2", "to": "b2", "width": 2}, {"color": "#00ff00", "from": "C2", "to": "b3", "width": 2}, {"color": "#00ff00", "from": "C3", "to": "c1", "width": 2}, {"color": "#00ff00", "from": "C3", "to": "c2", "width": 2}, {"color": "#00ff00", "from": "C3", "to": "c3", "width": 2}, {"color": "#00ff00", "from": "C4", "to": "d1", "width": 2}, {"color": "#00ff00", "from": "C4", "to": "d2", "width": 2}, {"color": "#00ff00", "from": "C4", "to": "d3", "width": 2}, {"color": "#00ff00", "from": "C4", "to": "e1", "width": 2}, {"color": "#00ff00", "from": "C4", "to": "e2", "width": 2}, {"color": "#00ff00", "from": "C4", "to": "e3", "width": 2}, {"color": "#00ff00", "from": "C5", "to": "f1", "width": 2}, {"color": "#00ff00", "from": "C5", "to": "f2", "width": 2}, {"color": "#00ff00", "from": "C5", "to": "f3", "width": 2}, {"color": "#00ff00", "from": "C3", "to": "g1", "width": 2}, {"color": "#00ff00", "from": "C3", "to": "g2", "width": 2}, {"color": "#00ff00", "from": "C3", "to": "g3", "width": 2}, {"color": "#00ff00", "from": "C6", "to": "h1", "width": 2}, {"color": "#00ff00", "from": "C6", "to": "h2", "width": 2}, {"color": "#00ff00", "from": "C6", "to": "h3", "width": 2}, {"color": "#00ff00", "from": "C7", "to": "i1", "width": 2}, {"color": "#00ff00", "from": "C7", "to": "i2", "width": 2}, {"color": "#00ff00", "from": "C7", "to": "i3", "width": 2}, {"color": "#00ff00", "from": "C8", "to": "j1", "width": 2}, {"color": "#00ff00", "from": "C8", "to": "j2", "width": 2}, {"color": "#00ff00", "from": "C8", "to": "j3", "width": 2}, {"color": "#00ff00", "from": "C9", "to": "k1", "width": 2}, {"color": "#00ff00", "from": "C9", "to": "k2", "width": 2}, {"color": "#00ff00", "from": "C9", "to": "k3", "width": 2}, {"color": "#00ff00", "from": "C10", "to": "l1", "width": 2}, {"color": "#00ff00", "from": "C10", "to": "l2", "width": 2}, {"color": "#00ff00", "from": "C10", "to": "l3", "width": 2}, {"color": "#00ff00", "from": "C11", "to": "m1", "width": 2}, {"color": "#00ff00", "from": "C11", "to": "m2", "width": 2}, {"color": "#00ff00", "from": "C6", "to": "n1", "width": 2}, {"color": "#00ff00", "from": "C6", "to": "n2", "width": 2}, {"color": "#00ff00", "from": "C12", "to": "o1", "width": 2}, {"color": "#00ff00", "from": "C12", "to": "o2", "width": 2}, {"color": "#00ff00", "from": "C12", "to": "o3", "width": 2}, {"color": "#00ff00", "from": "C13", "to": "p1", "width": 2}, {"color": "#00ff00", "from": "C13", "to": "p2", "width": 2}, {"color": "#00ff00", "from": "C13", "to": "p3", "width": 2}, {"color": "#00ff00", "from": "C11", "to": "q1", "width": 2}, {"color": "#00ff00", "from": "C11", "to": "q2", "width": 2}, {"color": "#00ff00", "from": "C11", "to": "q3", "width": 2}, {"color": "#00ff00", "from": "C14", "to": "r1", "width": 2}, {"color": "#00ff00", "from": "C14", "to": "r2", "width": 2}, {"color": "#00ff00", "from": "C14", "to": "r3", "width": 2}, {"color": "#00ff00", "from": "C15", "to": "s1", "width": 2}, {"color": "#00ff00", "from": "C15", "to": "s2", "width": 2}, {"color": "#00ff00", "from": "C15", "to": "s3", "width": 2}, {"color": "#00ff00", "from": "C16", "to": "t1", "width": 2}, {"color": "#00ff00", "from": "C16", "to": "t2", "width": 2}, {"color": "#00ff00", "from": "C16", "to": "t3", "width": 2}, {"color": "#00ff00", "from": "C17", "to": "u1", "width": 2}, {"color": "#00ff00", "from": "C17", "to": "u2", "width": 2}, {"color": "#00ff00", "from": "C17", "to": "u3", "width": 2}, {"color": "#00ff00", "from": "C18", "to": "v1", "width": 2}, {"color": "#00ff00", "from": "C18", "to": "v2", "width": 2}, {"color": "#00ff00", "from": "C18", "to": "v3", "width": 2}, {"color": "#00ff00", "from": "C19", "to": "w1", "width": 2}, {"color": "#00ff00", "from": "C19", "to": "w2", "width": 2}, {"color": "#00ff00", "from": "C19", "to": "w3", "width": 2}, {"color": "#00ff00", "from": "C20", "to": "x1", "width": 2}, {"color": "#00ff00", "from": "C20", "to": "x2", "width": 2}, {"color": "#00ff00", "from": "C20", "to": "x3", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

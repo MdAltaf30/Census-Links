@@ -1,0 +1,24 @@
+1111|Spitz Rudolf,1701 Westpark dr, apt 110
+1112|Spitz Matilda,1701 Westpark drive, apt 110
+1113|Gebslardt Walter,1701 Westpark, apt 110
+1114|Gebslardt Enia,1701 Westpark Drv, apt 110
+1115|Brussel Frank,9000 kanban Road, little rock
+1116|Brussel Ida,9001 kanban Rd, little rock
+1117|Williams William,09911 westeast street, arkansas
+1118|Williams Ellen,9912 WE street, arkansas
+1119|Miencci Anthony,1000 Oak Street, Pine  City
+1120|Miencci Theresa,1000 Oak Street, Pine Wd City
+1121|Miencci Mildred,1000 Oak Street, Pine Wood City
+1122|Koenig Henry,9000 West East St, Chicago
+1123|Koenig Matilda,9000 West East Street, Chicago
+1124|Koenig Harold,9000 West East Street, Chicago
+1125|Formica Camilo,0911 Nayantara Rd Drive, IL
+1126|Formica Rose,0911 Nayantara Rd Drive, IL
+1127|Formica Salvo,0911 Nayantara Road Drive, IL
+1128|Butler V,9888 Cosmic World St, ARK
+1129|Butler Helen,9889 Cosmic World Street, ARK
+1130|Butler Vincent,9890 Cosmic World Street, ARK
+1131|Karte Raymond,34332 Street Avenue
+1132|Karte Grace,34333 Street Avenue
+1133|Petric Raymond,18899 Claifornia Street
+1134|Petric Francis,18900 Claifornia Street

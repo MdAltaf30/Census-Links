@@ -1,0 +1,500 @@
+SSN	First Name	Last Name	House Number	Street Address	City	State	Zip	DOB-Day	DOB-Month	DOB-Year	Phone	Occupation	Salary	TruthFileRowNum
+208-21-3564	Walter	Johnson	601	Cherry Blvd.	Baltimore	MD	21212	29	7	1929	(410) 475-4717	Chief Executive	$136,555.00 	2
+236-10-5542	Dorey	Connie	18	North Ave.	Elgood	WV	24740	21	3	1925	(304) 436-7969	Food Servers, Nonrestaurant	$16,983.00 	3
+250-67-1413	James	Kurtz	1209	Church Ave.	Aiken	SC	29801	10	8	1944	(803) 507-7329	Customer Service Representative	$27,193.00 	4
+551-12-9616	Monica	Butler	1412	EXRidge Dr.	Brooklyn	NY	11215	1	30	1929	(925) 385-6646	Real Estate Sales Agent	$43,414.00 	5
+601-28-5870	QJames	Plair	438	Church Blvd.	Mesa	AZ	85201	3	6	1976	(520) 796-6417	Educational, Vocational, and School Counselor	$45,285.00 	6
+680-30-3400	Dennis	Mcbride	2102	Hickory Dr., Apt. 31	Berwyn	PA	19312	6	12	1934	(702) 723-6879	Teacher Assistant	$19,261.00 	7
+163-18-1061	Nutting	Geraldine	1316	Thirteenth Blvd.	Altoona	PA	16601	11	2	1949	(814) 327-5531	Food Preparation and Serving Related Occupation	$17,907.00 	8
+167-72-3807	Marcella	Dewberry	2411	Railroad Blvd.	Manheim	PA	17545	8	6	1945	(717) 664-8442	Nursing Aide, Orderly, and Attendant	$19,664.00 	9
+563-52-1384	Carl	AMoxley	811	Fifth St	Stanford	CA	94305	6	3	1935	(650) 345-2428	Cook, Institution and Cafeteria	$19,805.00 	10
+534-72-7183	Michael	Garver	359	Ridge Street	Tacoma	WA	98405	4	4	1907	(253) 404-7440	Retail Salesperson	$21,448.00 	11
+609-22-6336	Alejandro	Fields	1741	Washington Dr	Lawndale	CA	90260	2	5	1973	(310) 589-3158	Laborer and Freight, Stock, and Material Movers, Hand	$21,091.00 	12
+444-10-0689	Huffman	Jacqueline	2987	Broadway Ave.	Kerrville	TX	78028	29	7	1976	(405) 234-3692	First-Line Supervisor/Manager of Construction Trades and Extraction Worker	$53,186.00 	13
+375-62-2101	John	Branch	1576	Second Avenue	Detroit	MI	48205	1	12	1919	(248) 472-5912	Helper--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setter	$27,874.00 	14
+002-14-7112	Justin	Eckert	151	WTRidge Ave.	Nashua	NH	3060	28	2	1956	(603) 804-2019	Executive Secretary and Administrative Assistant	$35,036.00 	15
+370-36-1518	Jason	OMitchell	204	Elm Ave	Southeast	MI	48529	2	3	1910	(517) 915-9543	ARetail SalespersonRF	$22,500.00 	16
+588-04-2004	Perry	Durant	502	ZGMain Street	Laurel	MS	39440	18	6	1904	(601) 425-6312	Sales Representative, Wholesale and Manufacturing, Except Technical and Scientific Product	$48,745.00 	17
+345-50-8410	Thelma	Alejandre	2407	Center Street	Henderson	KY	42420	17	3	1943	(815) 287-6593	Correctional Officers and Jailer	$33,093.00 	18
+376-28-2072	Douglas	Creek	384	Franklin Dr	Brighton	MI	48116	4	29	1922	(810) 220-2552	Civil Engineer	$64,579.00 	19
+003-76-0042	Daniel	Plantenberg	2308	Johnson Dr	Bristol	NH	3222	10	6	1915	(603) 744-7312	Executive Secretary and Administrative Assistant	$36,628.00 	20
+384-07-2245	Christopher	McMillin	2534	Taylor Blvd.	Novi	MI	48377	1	14	1991	(248) 529-0980	Counter and Rental Clerk	$19,120.00 	21
+225-79-5525	Goss	Herman	2722	Fourth St	Poquoson	VA	23662	22	8	1979	(757) 597-4059	Registered Nurse	$48,211.00 	22
+002-01-7104	Marjorie	Banks	1203	Main Dr.	Des Moines	IA	50315	19	12	1942	(603) 732-9338	Kindergarten Teacher, Except Special Education	$40,779.00 	23
+769-12-2302	Juanita	Perdue	2294	Pine Dr.	Tampa	FL	33617	20	10	1982	(813) 221-4379	Hairdresser, Hairstylist, and Cosmetologist	$21,244.00 	24
+554-25-7194	Nancy	Pace	474	Lincoln Avenue, Apt. 24	Visalia	CA	93277	6	9	1941	(760) 531-1681	Coating, Painting, and Spraying Machine Setters, Operators, and Tender	$26,993.00 	25
+227-85-5743	Alfred	Humes	588	Lake Ave, Apt. 3	Charlottesville	VA	22901	3	9	1956	(540) 778-9397	Mechanical Engineer	$67,999.00 	26
+531-96-8222	Carl	Cooper	335	ONBirch Dr.	Opa Locka	FL	33054	24	10	1913	(425) 754-4495	Civil Engineer	$63,605.00 	27
+363-38-2964	HMark	Diaz	2025	Oak Ave	Wyoming	MI	49509	10	11	1976	(231) 555-6735	Industrial Truck and Tractor Operator	$27,485.00 	28
+365-07-1185	Louise	Chen	427	Third Dr	Wakefield	MI	49968	7	2	1930	(906) 224-4542	AManagement AnalystZQ	$71,877.00 	29
+240-15-9664	Dustin	Lespedes	1403	Miller Avenue	Fort Wayne	IN	46825	1	4	1942	(704) 979-2821	Sales Manager	$86,225.00 	30
+539-12-5874	Steven	Pabon	1162	Lakeview Avenue	Kent	WA	98032	27	1	1979	(253) 685-6546	Food Preparation and Serving Related Occupation	$16,356.00 	31
+281-03-3068	ZGerald	Brown	2578	Franklin Blvd.	Aberdeen	OH	45101	28	9	1955	(937) 795-3256	Waiter	$16,055.00 	32
+266-44-6921	Arthur	Carithers	2273	Lake Blvd.	Hollywood	FL	33025	19	6	1928	(754) 224-7052	Laborer and Freight, Stock, and Material Movers, Hand	$21,973.00 	33
+625-10-3422	Paul	Olson	2265	Park Avenue	Howard	PA	16841	4	12	1952	(408) 998-5199	Food Preparation and Serving Related Occupation	$17,175.00 	34
+591-20-3269	Willie	FRoberts	2898	Sunset Drive	Winter Park	FL	32789	16	7	1976	(321) 460-4155	Office Clerk, General	$23,523.00 	35
+184-52-6653	Donnellan	Priscilla	675	Sixth Street	Hazen	PA	15825	12	12	1947	(814) 328-9555	Team Assembler	$23,552.00 	36
+650-18-5670	KNorton	Lynda	2102	Valley Blvd.	Durango	CO	81301	25	6	1916	(970) 769-2682	Elementary School Teacher, Except Special Education	$45,227.00 	37
+239-73-1363	Julianne	Moore	1788	Poplar Street	El Paso	TX	79934	3	4	1941	(919) 571-4123	Refuse and Recyclable Material Collector	$25,505.00 	38
+051-20-3438	Frank	Wolfe	1171	Second Blvd.	Garden City	NY	11530	2	5	1958	(516) 369-9414	Tool and Die Maker	$44,010.00 	39
+768-18-2640	Andrew	Davis	2917	View Dr	Saint Petersburg	FL	33710	10	4	1958	(863) 825-7465	Management Analyst	$66,669.00 	40
+494-58-9090	Michelle	Quick	2703	Fifteenth Dr.	Scott City	MO	63780	8	2	1917	(573) 398-2661	Carpenter	$38,495.00 	41
+260-41-7009	John	Robinette	1371	Cherry St	Woodstock	GA	30188	27	2	1989	(770) 872-1933	Switchboard Operator, Including Answering Service	$20,920.00 	42
+528-24-0254	Terry	Wells	1735	Central Dr	Longview	WA	98632	2	6	1957	(360) 442-4360	Food Preparation and Serving Related Occupation	$16,970.00 	43
+131-09-3108	Polly	Caudill	2690	Davis Ave	Warsaw	NY	14569	8	3	1993	(585) 786-7415	First-Line Supervisor/Manager of Non-Retail Sales Worker	$65,665.00 	44
+233-03-5647	Stanley	Greene	2464	Cedar Avenue	Kermit	WV	25674	9	1	1937	(304) 393-6789	WPayroll and Timekeeping ClerkEJ	$31,168.00 	45
+560-27-5888	Stiver	Mindy	1399	Elm Dr	Wilmington	CA	90744	27	1	1956	(310) 629-7063	Teller	$20,298.00 	46
+063-40-6446	Ines	Garth	1482	River Ave.	Coatopa	AL	35470	4	3	1987	(607) 796-1042	RFirst-Line Supervisor/Manager of Construction Trades and Extraction WorkerTP	$49,136.00 	47
+617-15-2024	Daniel	Jackson	1344	Church St., Apt. 23	Stockton	CA	95206	11	8	1905	(209) 473-1969	Packaging and Filling Machine Operators and Tender	$23,011.00 	48
+368-01-2433	Mary	Collins	1627	Cherry Avenue	Tawas City	MI	48763	11	10	1905	(989) 867-8276	Customer Service Representative	$29,151.00 	49
+097-62-7422	Steven	Pewitt	1425	Park Dr	Brooklyn	NY	11204	27	7	1912	(347) 424-4169	Receptionist and Information Clerk	$21,586.00 	50
+270-18-7070	Brown	John	2811	Sycamore Ave., Apt. 4	Willowick	OH	44095	22	3	1917	(440) 272-5817	Waiter	$15,133.00 	51
+377-34-7884	Daniel	WMichaels	1643	Lake Ave, Apt. 30	Hastings	MI	49058	12	5	1908	(269) 953-2996	Dining Room and Cafeteria Attendants and Bartender Helper	$16,036.00 	52
+023-44-0099	Jill	Grabner	532	Lakeview Ave.	Montgomery	MA	1085	8	10	1992	(413) 813-2343	Stock Clerk and Order Filler	$21,915.00 	53
+771-03-1643	Susan	Berry	1436	Franklin Ave.	North Montpelier	VT	5666	7	6	1922	(941) 219-8004	Meat, Poultry, and Fish Cutters and Trimmer	$18,015.00 	54
+426-08-2679	Gerald	Kingsley	2446	River St	Natchez	MS	39120	14	1	1969	(601) 897-2124	Sales Representative, Wholesale and Manufacturing, Except Technical and Scientific Product	$52,062.00 	55
+616-04-6449	XBarbara	Jackson	2566	Oak St	Long Beach	CA	90805	8	7	1920	(310) 934-7864	Billing and Posting Clerks and Machine Operator	$27,077.00 	56
+622-82-4708	Francisco	Briscoe	681	Third St	Signal Hill	CA	90806	14	7	1995	(310) 932-7393	Food Preparation and Serving Related Occupation	$16,489.00 	57
+633-54-7753	Antoinette	Gibbs	276	Thirteenth Ave.	Houston	TX	77072	1	10	1948	(281) 453-9165	Food Preparation and Serving Related Occupation	$17,940.00 	58
+424-14-7755	Sheila	Heard	1497	Birch Avenue	Montgomery	AL	36107	21	5	1913	(334) 325-4062	Team Assembler	$25,941.00 	59
+042-20-1242	Clayton	Hess	1590	Highland Avenue, Apt. 4	Wallingford	CT	6492	27	1	1904	(203) 949-2584	Coating, Painting, and Spraying Machine Setters, Operators, and Tender	$26,076.00 	60
+192-26-7357	Kathleen	Steele	186	Seventh Blvd.	Summerhill	PA	15958	26	5	1947	(814) 495-8182	Cook, Institution and Cafeteria	$19,496.00 	61
+076-20-1490	Linda	Collins	752	Spring Drive	Hicksville	NY	11801	8	3	1996	(516) 932-0939	Compensation, Benefits, and Job Analysis Specialist	$48,751.00 	62
+258-56-5442	IJulia	Mitchell	502	Main Ave.	Lilburn	GA	30247	7	9	1978	(770) 927-4171	Truck Driver, Heavy and Tractor-Trailer	$35,587.00 	63
+488-90-5460	Marlen	Felix	2872	WRDavis Dr.	Lake Lotawana	MO	64063	8	5	1993	(816) 578-0928	Home Health Aide	$18,546.00 	64
+431-90-8203	Sherrill	Blaker	611	Seventh Dr.	Roswell	NM	88201	28	1	1948	(870) 873-1897	Fire Inspector and Investigator	$44,213.00 	65
+566-18-5659	Norma	Poinelli	834	Williams St	Saint Louis	MO	63113	17	5	1950	(510) 326-3810	General and Operations Manager	$87,072.00 	66
+620-58-2954	AJoan	Traylor	1767	Highland Ave	Bakersfield	CA	93308	22	11	1953	(661) 588-8820	Nursing Aide, Orderly, and Attendant	$20,456.00 	67
+595-11-5107	Jesse	Mack	2979	Twelth Blvd.	Olympia Heights	FL	33175	23	1	1911	(305) 283-4324	Registered Nurse	$51,243.00 	68
+402-36-5258	Katherine	Rivera	1390	Forest Avenue	Trinity	KY	41179	28	12	1987	(606) 288-1009	Food Preparation and Serving Related Occupation	$17,182.00 	69
+467-66-5861	Christine	AThomas	2174	South Dr.	Plano	TX	75023	24	7	1918	(903) 415-4020	Nursing Aide, Orderly, and Attendant	$21,351.00 	70
+561-18-8214	Joseph	Panzarella	2408	Washington Dr.	Louisville	KY	40210	7	5	1984	(209) 260-1037	XReal Estate Sales AgentKH	$40,873.00 	71
+241-66-7387	Beverly	Pruitt	1050	Madison Ave.	Spring Valley	CA	91977	8	7	1991	(919) 729-7828	Office Clerk, General	$24,265.00 	72
+470-16-4667	Rocky	Bergman	2354	Cherry Avenue	Okolona	KY	40229	15	9	1965	(507) 352-1244	JCashierFY	$16,037.00 	73
+480-26-7444	Christopher	Stewart	489	Sunset Ave.	East Mc Keesport	PA	15035	7	10	1979	(319) 525-7351	Food Preparation and Serving Related Occupation	$16,821.00 	74
+063-24-6446	Ann	Mcdougald	2526	Smith Ave	Corning	NY	14830	7	12	1987	(607) 542-0048	Extruding and Drawing Machine Setter, Operator, and Tender, Metal and Plastic	$26,662.00 	75
+575-24-4233	Barbara	Downs	2563	Williams Ave.	Honolulu	HI	96817	17	9	1951	(520) 421-5115	Computer Software Engineer, Systems Software	$75,334.00 	76
+175-10-8583	Juan	Fingleton	1505	Lakeview Blvd.	Carl Fisher	FL	33139	17	3	1940	(215) 585-4650	Food Preparation and Serving Related Occupation	$18,023.00 	77
+224-82-7003	Willie	AShemwell	632	Hill Dr	Annandale	VA	22003	22	7	1975	(703) 542-5542	Medical Transcriptionist	$27,876.00 	78
+558-10-1770	Collins	Kimberly	493	Hickory Street	Bell	FL	32619	23	9	1921	(408) 414-8792	Helpers--Installation, Maintenance, and Repair Worker	$22,949.00 	79
+331-76-7552	Rudy	QFish	100	Oak Ave	Palos Hills	IL	60465	17	2	1994	(708) 274-8045	Heating, Air Conditioning, and Refrigeration Mechanic and Installer	$34,998.00 	80
+652-22-8396	Charles	Whitton	2097	West Dr	Olathe	CO	81425	18	10	1995	(970) 323-5186	First-Line Supervisor/Manager of Construction Trades and Extraction Worker	$51,202.00 	81
+622-15-4716	Niles	Jose	1989	View Dr.	San Jose	CA	95112	8	15	1958	(408) 261-3934	Telemarketer	$22,228.00 	82
+681-01-7026	Raymond	Bailey	2680	Birch Ave	Wilmington	NC	28412	19	3	1973	(910) 251-4798	Executive Secretary and Administrative Assistant	$33,510.00 	83
+408-90-4362	FTimothy	Wilson	741	Sycamore Avenue	Tazewell	TN	37879	12	8	1957	(865) 238-8174	Architect, Except Landscape and Naval	$61,098.00 	84
+172-64-6731	CMartin	Brooker	2323	Green St.	Bernville	PA	19506	21	6	1927	(610) 488-4076	Industrial Machinery Mechanic	$38,977.00 	85
+650-30-5652	Debra	Wick	450	Maple St	Colorado Springs	CO	80906	3	6	1994	(719) 349-5760	Extruding and Drawing Machine Setter, Operator, and Tender, Metal and Plastic	$27,863.00 	86
+323-20-0478	William	Brinius	163	PSMain Dr.	Tucson	AZ	85714	29	7	1974	(815) 890-3349	Gaming Cage Worker	$22,967.00 	87
+457-22-6425	Sherry	Flores	908	Seventh Dr.	Austin	TX	78722	14	12	1941	(512) 996-5708	Licensed Practical and Licensed Vocational Nurse	$32,916.00 	88
+208-07-6832	Cook	Frances	1902	Spruce Dr	Minersville	PA	17954	3	4	1907	(570) 399-4746	Nursing Aide, Orderly, and Attendant	$20,455.00 	89
+214-82-0044	Fort	Robert	451	Fifth Dr.	Baltimore	MD	21216	15	10	1974	(410) 377-0926	First-Line Supervisor/Manager of Construction Trades and Extraction Worker	$49,929.00 	90
+551-56-9631	Teri	Bolin	472	Fourth Ave	San Jose	CA	95119	26	4	1949	(408) 980-3221	Cement Mason and Concrete Finisher	$32,505.00 	91
+167-64-5182	Schmidt	David	507	Fourth Dr	Mill Hall	PA	17751	19	2	1930	(570) 755-9840	Cashier	$17,115.00 	92
+630-03-7784	Jamie	Simpson	826	VBLake St	San Antonio	TX	78218	1	1	1987	(210) 321-3105	First-Line Supervisor/Manager of Office and Administrative Support Worker	$42,134.00 	93
+456-75-4573	Robin	Curry	2562	DOHill Ave	Houston	TX	77039	16	4	1959	(281) 899-6777	Retail Salesperson	$22,139.00 	94
+269-76-5662	Boyd	RAlbert	2583	Forest Dr	Middlefield	OH	44062	19	12	1984	(440) 632-7422	Food Preparation and Serving Related Occupation	$18,010.00 	95
+576-86-5358	Marjorie	Emerson	1324	Second Blvd.	Haleiwa	HI	96712	3	1	1928	(808) 274-6307	Data Entry Keyer	$22,403.00 	96
+148-44-5431	Teresa	Jackson	1651	Hill Blvd.	Montclair	NJ	7042	13	11	1991	(973) 239-2361	Correctional Officers and Jailer	$35,193.00 	97
+650-05-5673	Hugh	Shah	1656	Thirteenth Avenue, Apt. 13	Denver	CO	80236	7	4	1980	(303) 261-5533	Special Education Teacher, Preschool, Kindergarten, and Elementary School	$46,776.00 	98
+254-57-7639	Danielle	Gans	1488	Lake St., Apt. 24	Marietta	GA	30067	14	5	1979	(678) 345-8039	General and Operations Manager	$83,653.00 	99
+307-56-2498	Craig	Pardi	1115	First Blvd.	Gary	IN	46402	24	1	1949	(219) 743-0109	Bartender	$17,107.00 	100
+099-46-8883	Tanisha	Greve	1059	Cedar St	New Hamburg	NY	12590	14	1	1946	(845) 895-6420	Bookkeeping, Accounting, and Auditing Clerk	$28,706.00 	101
+681-01-6615	Weingart	Albert	1930	OFWest St	Holt	AL	35404	7	11	1906	(919) 375-9881	Computer Software Engineer, Application	$76,076.00 	102
+286-54-2711	CTracy	Maldonado	2071	Cedar Drive	Lincoln Village	OH	43228	26	7	1915	(614) 342-5028	Construction Laborer	$29,249.00 	103
+637-72-8640	Mary	Leclerc	2356	Spruce St.	Highland Village	TX	75067	17	5	1979	(940) 270-0197	Engineering Manager	$92,866.00 	104
+456-14-2519	Donnie	Gomez	479	Ninth Ave.	Harker Heights	TX	76542	1	27	1959	(254) 285-5285	Executive Secretary and Administrative Assistant	$36,137.00 	105
+682-01-7477	Robert	Haber	2487	Lake Street	Shelby	NC	28152	16	4	1999	(704) 472-3751	Hotel, Motel, and Resort Desk Clerk	$18,225.00 	106
+237-66-7629	Sergio	Howell	682	Oak St.	Columbus	NC	28722	7	4	1982	(828) 894-3633	First-Line Supervisor/Manager of Office and Administrative Support Worker	$40,318.00 	107
+541-20-0900	John	Vallien	2541	Fifteenth St	Portland	OR	97214	11	21	1927	(503) 803-2878	Computer Programmer	$61,815.00 	108
+388-88-4875	James	Perez	721	Eleventh Dr.	Milwaukee	WI	53204	14	9	1997	(414) 347-0650	BFood Preparation and Serving Related OccupationKN	$17,384.00 	109
+171-62-0896	Kenneth	Sturges	268	Forest Ave	Cleona	PA	17042	16	1	1929	(717) 447-7506	Cashier	$16,062.00 	110
+351-90-4387	KSusan	Wilson	1831	Ridge Avenue	Chicago	IL	60641	16	2	1971	(708) 303-3684	Waiter	$15,965.00 	111
+182-26-7283	Mark	Nixson	1384	College Blvd.	West York	PA	17404	14	7	1958	(717) 840-0491	Cashier	$17,095.00 	112
+512-40-6361	Maldenado	Daniel	379	Main Street	West Swanzey	NH	3469	9	4	1922	(620) 564-7989	ICrossing GuardZC	$20,721.00 	113
+442-42-0012	Heath	Arredondo	1897	Hickory Ave.	Midwest City	OK	73110	26	2	1928	(405) 808-1026	Laborer and Freight, Stock, and Material Movers, Hand	$22,111.00 	114
+221-34-9000	Cameron	CCampos	1927	Hill Avenue, Apt. 9	Tulsa	OK	74110	5	9	1999	(302) 709-0758	Psychology Teacher, Postsecondary	$60,091.00 	115
+389-86-7172	Dorothy	Hatfield	146	Third St	Hurley	WI	54534	8	12	1939	(715) 208-4786	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$19,898.00 	116
+764-28-3358	XDanielle	HJohnson	2071	Jackson Ave.	Glendale Heights	IL	60139	9	3	1956	(928) 333-9260	Bus Driver, School	$22,057.00 	117
+367-10-0347	Mary	Beaulieu	202	Sunset St	Dearborn	MI	48124	3	10	1980	(734) 562-4517	Office Clerk, General	$22,498.00 	118
+545-02-1752	Patricia	Dudley	1262	Valley Ave	Roseville	CA	95678	24	9	1952	(916) 771-9809	YJanitor and Cleaner, Except Maids and Housekeeping CleanerAV	$21,026.00 	119
+033-44-8380	James	Coulter	1757	ZOSixth St	Longmeadow	MA	1106	21	12	1929	(413) 798-2512	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$20,397.00 	120
+156-64-6034	WEdward	UPhillips	1621	Oak Drive	Clifton	NJ	7011	29	3	1934	(732) 541-8753	Civil Engineering Technician	$39,323.00 	121
+284-56-9229	Juana	Gardner	1501	Third Street	East Cleveland	OH	44112	13	10	1909	(440) 549-3190	Billing and Posting Clerks and Machine Operator	$27,233.00 	122
+431-02-8211	Skye	Moore	1580	Mill Avenue	Fayetteville	AR	72701	10	27	1980	(479) 260-3573	Counter and Rental Clerk	$19,273.00 	123
+420-04-3541	Raymond	Tapp	2290	Railroad St	Hazel Green	AL	35750	17	7	1999	(256) 829-9294	Billing and Posting Clerks and Machine Operator	$26,339.00 	124
+548-22-2533	Amy	Trasher	2256	Sycamore Street, Apt. 15	Seattle	WA	98109	24	12	1975	(213) 215-8132	Industrial Engineering Technician	$45,985.00 	125
+462-06-5840	David	Crandall	634	Franklin Avenue	San Antonio	TX	78227	18	7	1906	(210) 720-4006	Construction Laborer	$28,985.00 	126
+621-54-1703	Knipp	John	2121	Twelth Ave., Apt. 14	Laytonville	CA	95454	7	2	1923	(707) 414-7788	First-Line Supervisor/Manager of Non-Retail Sales Worker	$66,221.00 	127
+680-03-0508	Cristina	Krause	2988	First Blvd., Apt. 12	Windsor	NC	27983	28	2	1961	(252) 325-4434	Roofer	$31,823.00 	128
+372-94-5728	Maryann	UGarcia	1551	Meadow Street	Dallas	TX	75235	5	3	1942	(517) 936-4603	SDemonstrator and Product PromoterCL	$25,437.00 	129
+364-28-4185	Velasquez	Jacqueline	1724	Spruce Blvd.	Farmington Hills	MI	48336	18	8	1934	(248) 957-6388	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$21,050.00 	130
+488-07-5472	Carol	Longwell	2614	Cherry Street	Monett	MO	65708	3	18	1986	(417) 235-5926	Cutting, Punching, and Press Machine Setter, Operator, and Tender, Metal and Plastic	$25,916.00 	131
+448-58-2956	Stubblefield	Scott	2044	Spring St.	Shawnee	OK	74801	4	12	1958	(405) 878-0912	Cashier	$17,053.00 	132
+672-10-3326	Cajigas	Marcia	2307	Sunset St	Atlanta	GA	30349	19	4	1920	(404) 348-8321	Executive Secretary and Administrative Assistant	$36,420.00 	133
+138-12-0138	Floyd	Farquhar	518	AREighth Blvd.	Passaic	NJ	7055	4	5	1948	(201) 757-7176	Management Analyst	$67,706.00 	134
+148-03-5427	Laticia	Heath	2940	Seventh Drive	Ellinwood	KS	67526	8	6	1989	(201) 267-8348	ISecondary School Teacher, Except Special and Vocational EducationVV	$45,173.00 	135
+478-50-6850	Joan	Roca	2777	Elm Blvd.	Sperry	IA	52650	6	7	1921	(319) 796-6357	Licensed Practical and Licensed Vocational Nurse	$33,592.00 	136
+452-59-1728	Ruthe	HMilland	950	Hill St.	Tiplersville	MS	38674	2	4	1968	(682) 286-8459	Office Clerk, General	$24,691.00 	137
+688-03-2837	Helen	Martin	2270	JQThird Avenue	Salisbury	NC	28144	9	17	1969	(704) 637-3101	Team Assembler	$25,405.00 	138
+363-40-2967	Robert	BOneill	808	West Drive	Southfield	MI	48034	27	9	1913	(248) 483-4430	Medical Assistant	$25,118.00 	139
+289-02-8548	Jeffery	Brewer	1439	Hill Ave	Dayton	OH	45418	16	5	1983	(937) 903-9241	Food Preparation and Serving Related Occupation	$16,929.00 	140
+010-44-3163	Robert	Vigue	2676	Park Dr.	Ludlow	MA	1056	15	4	1958	(413) 547-0662	Office Clerk, General	$23,636.00 	141
+277-03-0233	Kenneth	Valdez	1065	Cherry Dr, Apt. 9	Conneaut	OH	44030	9	2	1966	(440) 599-6262	Secretary, Except Legal, Medical, and Executive	$25,105.00 	142
+766-20-6560	Margaret	Anderson	918	QUPark Dr	Quail Heights	FL	33177	5	19	1928	(305) 234-3304	Office Clerk, General	$22,367.00 	143
+520-56-0776	Cherlyn	Whisenant	2419	Center Avenue	Lansing	MI	48915	16	11	1929	(307) 421-9656	Interpreter and Translator	$34,143.00 	144
+542-13-3523	Johnson	Janene	2966	Eleventh Dr	Lawrence	KS	66046	24	4	1914	(503) 857-5885	Helper--Pipelayer, Plumber, Pipefitter, and Steamfitter	$23,210.00 	145
+452-85-1730	Linda	Jones	2441	Third Drive	Oakwood	TX	75855	30	7	1945	(903) 545-9909	KDental AssistantGI	$27,705.00 	146
+171-26-0903	Randall	Heger	852	Third Blvd.	Squirrel Hill	PA	15217	29	11	1914	(412) 282-7586	Cook, Restaurant	$19,000.00 	147
+532-74-4111	Joseph	Calaway	833	Jackson Blvd.	Mosinee	WI	54455	7	4	1951	(509) 790-9040	Electrician	$45,885.00 	148
+427-57-7847	Gary	Dejean	1244	LUSunset Avenue	Las Vegas	NV	89119	24	11	1909	(601) 436-0075	Purchasing Agent, Except Wholesale, Retail, and Farm Product	$48,943.00 	149
+461-84-0098	Peter	Coleman	908	Lake St	Marshall	TX	75670	10	4	1962	(903) 998-1606	Nursing Aide, Orderly, and Attendant	$19,779.00 	150
+531-28-8246	Ginger	Phillips	422	Second Drive	Pullman	WA	99163	5	9	1976	(509) 332-7863	Medical and Clinical Laboratory Technologist	$43,757.00 	151
+275-58-1890	Alan	OAllen	595	Second Street	Warren	OH	44483	22	2	1989	(330) 261-2090	Nursing Aide, Orderly, and Attendant	$20,350.00 	152
+403-52-5878	Sara	Osting	1031	Fourteenth Ave	Big Bend	WI	53103	7	10	1973	(270) 817-4761	First-Line Supervisor/Manager of Mechanics, Installers, and Repairer	$48,800.00 	153
+033-01-8376	Robert	Alcantara	2594	Chestnut Ave, Apt. 39	Taunton	MA	2780	3	2	1942	(508) 301-3980	Registered Nurse	$51,708.00 	154
+272-76-4018	Marjorie	Madden	1742	YHMaple Ave	College Hill	OH	45224	12	7	1934	(419) 927-2538	Drywall and Ceiling Tile Installer	$37,149.00 	155
+109-01-1696	Jon	Knobloch	260	Second Dr	Riverhead	NY	11901	21	3	1978	(631) 722-3696	General and Operations Manager	$83,797.00 	156
+087-28-8782	Sharon	EDoan	2391	View Avenue	Marlboro	NY	12542	19	12	1923	(845) 236-0276	Correctional Officers and Jailer	$35,112.00 	157
+217-55-1586	Annie	VCornelia	2919	Highland Ave, Apt. 18	Rock Hall	MD	21661	3	3	1995	(410) 639-6409	Customer Service Representative	$28,464.00 	158
+485-64-3416	Thomas	Mitchell	1047	Third Blvd.	Guttenberg	IA	52052	16	5	1946	(563) 255-5691	Insurance Sales Agent	$51,625.00 	159
+637-72-8613	Kelly	Duncan	393	Thirteenth Ave.	Amarillo	TX	79103	3	5	1951	(806) 679-6566	Dishwasher	$15,928.00 	160
+595-07-5113	Lewis	Sears	1494	Chestnut Avenue	Ridge Manor West	FL	34602	12	7	1958	(352) 585-0210	ITeam AssemblerKO	$24,922.00 	161
+248-18-6510	Jacqueline	SBryan	2525	WDJohnson St.	Kershaw	SC	29067	11	3	1966	(803) 475-8788	Construction Laborer	$28,596.00 	162
+663-01-0816	Martha	Smith	412	Church Dr.	Vidalia	LA	71373	6	22	1958	(318) 314-1059	Child Care Worker	$17,305.00 	163
+071-76-0721	Henry	Maher	2450	Fifth Dr.	Troy	NY	12180	11	8	1996	(518) 287-7678	Food Preparation and Serving Related Occupation	$17,209.00 	164
+416-01-3545	Brian	Brown	270	Fifth St	Albertville	AL	35950	16	10	1915	(256) 264-2050	KSecondary School Teacher, Except Special and Vocational EducationQN	$47,786.00 	165
+463-32-4671	Joy	Finely	219	Ridge Avenue	San Diego	CA	92120	3	17	1955	(972) 914-6746	Retail Salesperson	$21,553.00 	166
+764-10-3399	Wendy	Worthy	2028	Forest Ave.	Tucson	AZ	85705	6	12	1949	(520) 488-6794	Home Health Aide	$19,630.00 	167
+526-20-9381	Michael	Card	2370	Highland Dr.	Phoenix	AZ	85032	11	8	1993	(520) 796-8454	Stock Clerk and Order Filler	$20,651.00 	168
+423-26-3422	Thomas	Archer	2858	Walnut Street	Letohatchee	AL	36047	26	2	1953	(334) 367-3679	Brickmason and Blockmason	$40,524.00 	169
+133-60-6569	Randall	Murray	165	UFFifth Drive	Bronx	NY	10462	17	1	1906	(347) 282-8482	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$20,829.00 	170
+468-04-2576	Margaret	Stepanek	1450	Elm Ave	Redlake	MN	56671	5	3	1950	(507) 421-8473	Slaughterer and Meat Packer	$19,510.00 	171
+388-24-4861	Davis	QJestine	1062	Hill St	Murrieta	CA	92562	27	2	1982	(414) 320-0623	First-Line Supervisor/Manager of Production and Operating Worker	$45,483.00 	172
+160-40-2580	AConnie	Patterson	1398	Walnut Street	Hellertown	PA	18055	6	7	1948	(484) 859-8472	Dentist	$135,678.00 	173
+558-02-1786	Carrie	Crogan	457	Seventh Street	Rossmoor	CA	90720	9	10	1980	(310) 632-9458	General and Operations Manager	$80,047.00 	174
+412-91-7545	Gregory	Comer	956	First Ave., Apt. 6	Dickel	TN	37388	4	4	1986	(931) 592-9010	Licensed Practical and Licensed Vocational Nurse	$31,083.00 	175
+647-05-5084	Smith	David	507	Park Street	Salt Lake City	UT	84103	25	9	1909	(801) 266-8569	Correctional Officers and Jailer	$34,543.00 	176
+657-09-4015	FVonda	Vaughan	2360	Valley St	Dalzell	SC	29040	18	3	1946	(803) 703-9159	SFood Preparation and Serving Related OccupationVB	$17,692.00 	177
+364-04-4171	Rhett	Thomas	1313	JBWashington Drive	Quincy	MI	49082	25	7	1961	(517) 639-5712	WPacker and Packager, HandZW	$18,538.00 	178
+246-48-3568	Micki	Wolf	2149	Sunset Blvd.	Fuquay Varina	NC	27526	16	10	1991	(919) 577-3673	Door-To-Door Sales Worker, News and Street Vendor, and Related Worker	$30,456.00 	179
+267-26-5267	Guy	Sam	2760	Oak St.	Mims	FL	32754	7	10	1950	(352) 735-4974	Food Preparation and Serving Related Occupation	$17,424.00 	180
+030-58-0319	Edna	Buske	1022	Franklin Blvd.	Belmont	MA	2178	14	3	1915	(617) 486-6580	Truck Driver, Heavy and Tractor-Trailer	$35,939.00 	181
+253-22-3657	Gregory	Kaplan	1853	Thirteenth Ave	Commerce	GA	30529	10	7	1995	(706) 336-3157	Food Preparation and Serving Related Occupation	$17,884.00 	182
+651-10-8663	Daphine	Norman	2928	Ash Ave	Hamilton	IL	62341	21	8	1940	(303) 739-3210	Retail Salesperson	$22,065.00 	183
+535-26-9574	Andrew	Valero	260	Church Ave.	Federal Way	WA	98003	26	3	1964	(206) 258-1065	Electrical and Electronics Repairer, Commercial and Industrial Equipment	$42,632.00 	184
+420-56-8655	Patricia	Spencer	2821	Lake Ave	Mobile	AL	36609	5	5	1980	(251) 770-8685	General and Operations Manager	$87,610.00 	185
+765-36-4446	Kaitlin	Smith	229	Park St	Yuma	AZ	85364	10	12	1913	(520) 238-3216	Waiter	$15,632.00 	186
+223-59-0391	John	Goleman	1758	Ash Blvd.	Falmouth	VA	22405	9	5	1918	(540) 310-1614	Secretary, Except Legal, Medical, and Executive	$25,848.00 	187
+592-13-3833	DNona	Ford	2176	Seventh St, Apt. 34	Cutler	CA	93615	6	6	1947	(863) 546-3023	VFuneral DirectorCJ	$52,519.00 	188
+520-64-0792	Jeff	Erler	591	Eleventh Ave.	Casper	WY	82601	27	1	1939	(307) 357-4826	Purchasing Agent, Except Wholesale, Retail, and Farm Product	$46,351.00 	189
+246-12-3583	Weidner	Sally	1105	Second Ave	Weddington	NC	28173	6	21	1941	(704) 554-1904	Truck Driver, Light Or Delivery Service	$26,912.00 	190
+310-03-7553	Avery	Alexander	2115	View Drive	Cedar Rapids	IA	52402	13	5	1958	(574) 586-5010	File Clerk	$21,275.00 	191
+143-76-3260	MEula	KAnderson	1837	West Avenue	Maple Shade	NJ	8052	9	11	1967	(856) 446-4665	Customer Service Representative	$29,094.00 	192
+141-56-7128	James	Cato	1706	SUChestnut Ave	Paterson	NJ	7501	12	5	1984	(201) 824-4546	Waiter	$15,196.00 	193
+629-07-7791	AAlton	SGray	1409	PZWalnut Avenue	Houston	TX	77096	21	11	1910	(281) 897-4467	Cashier	$16,759.00 	194
+373-74-0143	Latonya	Ward	1121	Forest Drive	South Haven	MI	49090	10	3	2000	(269) 214-1973	Receptionist and Information Clerk	$22,290.00 	195
+535-12-9578	Jeanette	Taylor	2449	Church Ave	Silverdale	WA	98383	8	6	1998	(360) 516-4712	Boilermaker	$41,117.00 	196
+595-16-5098	Marvin	Goo	2662	Elm Street	Scotland	AR	72141	7	10	1937	(305) 972-5283	OMarket Research AnalystDF	$57,482.00 	197
+232-10-5640	Gary	Sosby	1071	Laurel St, Apt. 39	Robbins	NC	27325	30	1	1980	(910) 948-9191	Food Preparation and Serving Related Occupation	$16,662.00 	198
+225-52-5526	Michael	Mauer	1471	Lincoln St	Charlottesville	VA	22901	13	2	1976	(540) 778-9493	Network and Computer Systems Administrator	$55,029.00 	199
+89-84-9715	Samantha	Champagne	466	Maple Street	Great Neck	NY	11023	2	12	1919	(516) 352-9642	Cleaner of Vehicles and Equipment	$18,485.00 	200
+174-76-9647	Maria	Lingenfelter	569	Cherry Ave	Ruffs Dale	PA	15679	14	10	1948	(724) 639-9481	Tire Repairer and Changer	$21,254.00 	201
+555-46-3135	Gwenn	Willson	2783	Chestnut St.	San Francisco	CA	94121	20	3	1943	(415) 200-8270	Computer-Controlled Machine Tool Operator, Metal and Plastic	$31,793.00 	202
+306-22-6160	Alice	KBaffuto	1939	Third Dr.	Evansville	IN	47720	11	9	1999	(812) 429-1965	WSales Representative, Wholesale and Manufacturing, Except Technical and Scientific ProductRH	$50,396.00 	203
+088-22-3117	Henry	Lapierre	1359	Sunset Ave.	West Islip	NY	11795	6	10	1948	(516) 804-5539	Laundry and Dry-Cleaning Worker	$17,238.00 	204
+679-26-3405	Salinas	Jane	1860	Miller Avenue	Las Vegas	NV	89101	14	1	1943	(702) 340-9142	Food Preparation and Serving Related Occupation	$16,417.00 	205
+544-01-6664	Connie	Gonzalez	391	Center Blvd., Apt. 36	Newport	OR	97365	21	3	1932	(541) 272-5745	Social and Human Service Assistant	$26,036.00 	206
+463-29-7853	Frank	Scudder	2868	Sunset St	Riverside	CA	92507	10	2	1951	(903) 423-6870	Construction Laborer	$27,720.00 	207
+380-48-5219	ADebra	Gentry	2775	Lee Street	Saginaw	MI	48602	12	8	1953	(517) 223-5111	Occupational Therapist	$50,638.00 	208
+263-38-3475	Melissa	Blanchard	433	Second Dr.	Okeechobee	FL	34974	28	1	1981	(863) 623-2233	Executive Secretary and Administrative Assistant	$33,791.00 	209
+644-36-2554	Timothy	Edmonds	1547	Church Blvd.	Houston	TX	77092	2	12	1904	(281) 204-7354	Dining Room and Cafeteria Attendants and Bartender Helper	$15,475.00 	210
+432-88-7597	Laurel	Kirk	2194	Elm Street	Freeland	MI	48623	22	1	1990	(870) 691-0476	Truck Driver, Heavy and Tractor-Trailer	$33,967.00 	211
+392-78-4336	YThomas	Aurora	974	First St	Plover	WI	54467	8	11	1905	(715) 885-8001	Nonfarm Animal Caretaker	$19,075.00 	212
+418-05-3334	Beverly	QTorres	569	Central St.	Lanett	AL	36863	8	7	1928	(334) 401-9980	First-Line Supervisor/Manager of Food Preparation and Serving Worker	$25,353.00 	213
+111-54-7235	Christopher	Price	2725	Highland Blvd.	Brooklyn	NY	11238	30	8	1907	(347) 254-9240	Sales Representative, Wholesale and Manufacturing, Except Technical and Scientific Product	$53,414.00 	214
+079-03-3864	Rosa	Draughn	1255	View St	Coahoma	MS	38617	2	9	1968	(315) 429-2818	Cashier	$16,650.00 	215
+567-32-6727	Suzanne	Maddox	400	Fourth Dr.	Aptos	CA	95003	1	30	1914	(831) 662-2742	Office Clerk, General	$22,712.00 	216
+538-13-8846	Robert	Heistand	947	Chestnut Dr	Union Gap	WA	98903	23	2	1998	(509) 961-4380	Food Preparation and Serving Related Occupation	$17,322.00 	217
+271-32-1251	Vincent	Pitts	1892	OIDavis Dr.	Sonora	OH	43701	11	9	1939	(740) 786-2569	Food Preparation and Serving Related Occupation	$16,735.00 	218
+260-97-7007	Robert	Powers	2104	Oak Blvd.	Roswell	GA	30075	24	6	1992	(678) 986-0579	Bookkeeping, Accounting, and Auditing Clerk	$28,770.00 	219
+610-18-6380	Manuel	VBrannon	1390	Lee St	San Francisco	CA	94127	27	4	1922	(415) 505-4987	Receptionist and Information Clerk	$21,011.00 	220
+407-33-4940	Kerry	Escalante	436	Eighth Street	Nampa	ID	83687	19	2	1931	(859) 472-6800	Counter Attendant, Cafeteria, Food Concession, and Coffee Shop	$16,197.00 	221
+303-38-2302	Kristen	ZThomas	2910	TRSeventh St.	Haysville	IN	47546	7	3	1982	(812) 504-6083	Special Education Teacher, Secondary School	$46,983.00 	222
+232-82-5624	Kathleen	Thorns	1746	North Ave.	Albertville	AL	35950	19	7	1984	(304) 728-7323	Food Preparation Worker	$17,738.00 	223
+414-28-8630	Beverly	Rowe	336	Valley Blvd.	Bristol	TN	37620	30	5	1941	(423) 914-6935	Truck Driver, Heavy and Tractor-Trailer	$33,933.00 	224
+273-82-8308	Shaquita	Smith	1509	HAFifth Dr.	Staten Island	NY	10314	13	9	1979	(614) 422-5736	Automotive Body and Related Repairer	$35,673.00 	225
+340-07-9068	Ruth	Hill	2798	Oak Avenue	Breese	IL	62230	17	8	1914	(618) 526-6895	Home Health Aide	$18,441.00 	226
+052-46-2452	America	Bowman	269	Jackson Ave	Brooklyn	NY	11233	30	6	1975	(347) 525-5181	Counter Attendant, Cafeteria, Food Concession, and Coffee Shop	$16,836.00 	227
+479-18-7997	Sandra	Archambeault	2624	South Ave	Waterloo	IA	50703	28	5	1947	(319) 415-0896	Medical and Health Services Manager	$68,911.00 	228
+541-06-0891	QDavid	PLinton	1162	Second St., Apt. 17	Winchester Bay	OR	97467	9	3	1914	(541) 439-6776	Laborer and Freight, Stock, and Material Movers, Hand	$22,465.00 	229
+430-75-3973	Pryor	Jimmie	865	View Dr	Bethlehem	KY	40007	9	4	1974	(870) 816-0836	Executive Secretary and Administrative Assistant	$34,659.00 	230
+687-01-8859	Diane	JHale	2914	Second Dr	Greensboro	NC	27406	4	10	1919	(336) 908-1777	Receptionist and Information Clerk	$22,037.00 	231
+057-10-3456	Robert	Oshields	2269	Forest Avenue	Brooklyn	NY	11231	17	4	1928	(347) 865-2718	Office Clerk, General	$22,713.00 	232
+046-66-2195	Guillermo	Peters	824	Fifth Ave	Manchester	CT	6040	22	7	1985	(860) 783-0117	Secondary School Teacher, Except Special and Vocational Education	$43,890.00 	233
+590-34-5658	Danny	Mclain	1330	Central Dr.	Tampa	FL	33605	4	25	1927	(813) 554-7002	Laborer and Freight, Stock, and Material Movers, Hand	$20,822.00 	234
+361-54-1823	Casey	Norwood	2793	Church Dr.	Chicago	IL	60641	26	9	1919	(312) 735-8421	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$20,621.00 	235
+502-90-0606	Gail	Baldwin	250	Eighth Street	Minot	ND	58701	9	8	1992	(701) 852-4281	KSecretary, Except Legal, Medical, and ExecutiveAO	$27,269.00 	236
+633-42-7751	Johnson	Susan	385	Lincoln Street	Wylie	TX	75098	29	1	1929	(903) 567-8707	Food Preparation and Serving Related Occupation	$17,536.00 	237
+617-06-2025	Kimberly	GRipley	1106	Hickory Dr	Russian River	CA	94401	3	9	1933	(650) 863-5896	Grinding, Lapping, Polishing, and Buffing Machine Tool Setter, Operator, and Tenders, Metal and Plastic	$28,447.00 	238
+478-18-6857	Virginia	Craig	299	Seventh Drive, Apt. 34	Charles City	IA	50616	20	8	1996	(641) 330-4553	Sales Representative, Wholesale and Manufacturing, Except Technical and Scientific Product	$52,240.00 	239
+587-25-9780	Charles	Carey	933	Church Dr.	Greenville	MS	38701	15	10	1981	(662) 433-9752	Food Preparation and Serving Related Occupation	$16,341.00 	240
+233-72-5623	Tammy	Webb	1002	Fifteenth Ave.	Star City	WV	26505	28	3	2001	(304) 432-0601	Telemarketer	$22,309.00 	241
+503-18-8316	Nisbet	Frederick	999	Hill St.	Hot Springs	SD	57747	25	2	1910	(605) 890-2807	UAutomotive Service Technician and MechanicSN	$31,800.00 	242
+609-31-3534	Jose	MBragg	2418	Broadway Dr., Apt. 36	Santa Ana	CA	92706	12	7	1974	(626) 297-8800	Telecommunications Equipment Installer and Repairer, Except Line Installer	$46,156.00 	243
+348-22-6184	Lynne	Mumma	414	Cherry Ave.	Chicago	IL	60641	13	10	1995	(312) 770-2430	Medical Assistant	$25,052.00 	244
+594-09-2476	Alice	Payne	1112	Walnut Street	Orlando	FL	32818	19	11	1943	(321) 946-8304	Billing and Posting Clerks and Machine Operator	$28,455.00 	245
+671-12-5483	Wayne	Chin	513	Park Ave.	Bainbridge	GA	31717	14	4	1922	(229) 208-7405	Elementary School Teacher, Except Special Education	$45,903.00 	246
+621-70-1735	Richard	Goodall	1091	Elm Ave.	Los Angeles	CA	90044	22	3	1931	(213) 833-4064	Construction Laborer	$29,357.00 	247
+564-40-3052	Hassick	Diana	2464	Elm Ave	Lincoln	CA	95648	4	2	1926	(916) 209-0328	Biological Science Teacher, Postsecondary	$67,478.00 	248
+769-22-4505	Carol	Casarez	2297	TFCedar Drive	Glendale	AZ	85304	10	9	1919	(520) 827-7171	Cashier	$15,878.00 	249
+305-19-7048	Breanne	Fountain	332	Elm Drive, Apt. 32	Indianapolis	IN	46222	9	1	1984	(317) 510-0399	Registered Nurse	$50,228.00 	250
+094-52-4591	Mary	Grady	1536	ZNOak Drive, Apt. 37	College Point	NY	11356	19	1	1955	(347) 732-5140	Team Assembler	$24,973.00 	251
+568-29-4442	Jan	Henson	1313	Park Ave	Beverly Hills	CA	90211	5	15	1935	(213) 909-9172	Training and Development Specialist	$45,815.00 	252
+443-03-2439	Leonard	Shirley	353	Lincoln Street	Bremerton	WA	98310	1	1	1984	(918) 536-7949	HOffice Machine Operators, Except ComputerEM	$22,424.00 	253
+262-10-7946	John	Johnson	565	Seventh Street	Saint Petersburg	FL	33702	24	3	1967	(813) 600-1012	Preschool Teacher, Except Special Education	$20,834.00 	254
+424-90-7736	James	Choinski	1575	Washington Ave.	Park Row	TX	77493	5	4	1984	(205) 706-0570	Food Preparation Worker	$17,396.00 	255
+285-90-2225	Oles	Patrick	1186	Second Dr., Apt. 20	Dayton	OH	45427	24	3	1983	(937) 224-3902	Shipping, Receiving, and Traffic Clerk	$24,803.00 	256
+676-05-4085	Florine	Wilham	1960	NGHickory Avenue	London	AR	72847	27	2	1986	(479) 489-7686	General and Operations Manager	$84,597.00 	257
+226-43-4460	Thomas	VDavis	706	North St.	New Canton	VA	23123	2	3	1965	(804) 594-6447	Landscaping and Groundskeeping Worker	$20,513.00 	258
+503-62-8306	Jessica	Becker	2122	Laurel Ave	Astoria	NY	11106	20	2	1997	(605) 432-1334	Interviewer, Except Eligibility and Loan	$22,984.00 	259
+245-37-6347	Clark	Jessica	1310	Third Dr., Apt. 36	Bakersville	NC	28705	17	3	1936	(828) 688-8796	Cashier	$16,562.00 	260
+390-92-7166	BEarl	Chesley	2607	Ridge Ave.	Eau Claire	WI	54703	4	7	1917	(715) 529-7657	Food Preparation and Serving Related Occupation	$17,554.00 	261
+369-76-0062	Linda	Mischke	2168	Eighth St	Muskegon	MI	49442	29	11	1917	(616) 677-1632	Landscaping and Groundskeeping Worker	$21,339.00 	262
+343-70-4952	Joseph	Ray	115	Cedar Ave.	Rockford	IL	61103	8	11	1993	(815) 874-3552	Word Processor and Typist	$28,724.00 	263
+771-09-1665	Debbie	Watson	2687	Ninth Ave.	Largo	FL	34647	7	20	1941	(727) 838-9833	Truck Driver, Light Or Delivery Service	$25,136.00 	264
+423-52-3422	Carl	Heinrich	198	Fourth Ave	Aliceville	AL	35442	8	12	1941	(205) 236-5507	Police and Sheriff's Patrol Officer	$43,635.00 	265
+546-65-7149	Derek	Laliberte	2914	Washington Drive, Apt. 18	Los Angeles	CA	90029	9	6	1909	(213) 389-2182	CEmergency Medical Technician and ParamedicXH	$25,472.00 	266
+535-30-9560	Moon	Langlands	2053	DVFourteenth Street	El Paso	TX	79934	17	9	1990	(360) 386-6184	First-Line Supervisor/Manager of Office and Administrative Support Worker	$43,096.00 	267
+512-94-6391	Trula	OHambly	2516	VXCedar St.	Lawrence	KS	66044	30	3	1943	(785) 550-9514	Dishwasher	$14,689.00 	268
+460-40-4578	Rusty	Albee	1533	Fifth Ave	Floresville	TX	78114	1	12	1983	(830) 215-3832	Food Preparation and Serving Related Occupation	$18,012.00 	269
+559-81-1941	Karen	Mckee	2176	Lee Drive	Oakland	CA	94601	19	1	1988	(510) 501-3538	Carpenter	$35,346.00 	270
+520-17-0786	Catherine	Faber	2598	Tenth Ave	Casper	WY	82601	18	6	1983	(307) 208-0618	Office Clerk, General	$23,400.00 	271
+337-50-2182	Joe	Picardo	678	Fourth Dr, Apt. 28	Morton	IL	61550	11	3	1990	(309) 321-7859	File Clerk	$21,872.00 	272
+095-44-6934	Johnna	OJohnson	480	River Ave	Salem	AL	36874	26	10	1964	(914) 763-9840	Retail Salesperson	$20,820.00 	273
+218-69-3563	Lilly	Failla	449	Ninth Ave	Owings	MD	20736	9	25	1940	(240) 387-3409	Driver/Sales Worker	$23,243.00 	274
+561-04-8219	Gary	Ardoin	915	Elm Dr.	Fresno	CA	93722	29	9	1918	(209) 908-1905	Teacher Assistant	$20,478.00 	275
+436-33-1517	Leslie	Hankins	1592	West Blvd.	Natchitoches	LA	71457	15	5	1969	(318) 506-5646	Sales Representative, Wholesale and Manufacturing, Except Technical and Scientific Product	$51,428.00 	276
+483-27-8076	Larrabee	Steven	1254	Park Drive	Burlington	IA	52601	11	9	1919	(319) 209-5511	Landscaping and Groundskeeping Worker	$20,735.00 	277
+091-44-7088	Rosendo	Gray	1750	Lakeview Blvd.	Mesa	AZ	85201	10	30	1917	(845) 525-6439	Cashier	$17,278.00 	278
+616-70-6454	Clara	Budnick	2137	Center Street	San Francisco	CA	94121	10	11	1952	(415) 352-8952	WHelper--Production WorkerLE	$19,956.00 	279
+308-27-8903	Jose	Cardenas	802	Second Dr	Wabash	IN	46992	6	11	1973	(260) 560-6130	PJanitor and Cleaner, Except Maids and Housekeeping CleanerJU	$20,562.00 	280
+038-36-6594	Dorothy	Brewington	220	Fourteenth Dr	Jackson	NJ	8527	13	7	1908	(401) 736-0338	Automotive Body and Related Repairer	$34,062.00 	281
+545-61-1754	Edie	QEdward	532	Jefferson St.	Fairfield	CA	94533	4	21	1957	(707) 673-6252	Receptionist and Information Clerk	$22,151.00 	282
+690-01-2285	William	Jones	2836	Sunset Drive	Coleridge	NC	27316	19	6	1972	(336) 879-5376	Laborer and Freight, Stock, and Material Movers, Hand	$21,920.00 	283
+573-12-3111	Carole	Sherwood	1760	Green Dr.	San Jose	CA	95129	16	11	1933	(408) 974-4624	Inspector, Tester, Sorter, Sampler, and Weigher	$28,709.00 	284
+450-42-6464	Erica	Miles	2510	Spruce St	El Paso	TX	79905	3	3	1953	(325) 555-7745	Computer Programmer	$66,825.00 	285
+207-30-2649	Shirley	Foss	1301	Williams Ave.	King Of Prussia	PA	19406	25	6	1964	(484) 206-2413	Food Preparation and Serving Related Occupation	$16,392.00 	286
+400-25-5610	Phillips	Theresa	1617	ERPoplar Dr	Cornishville	KY	40330	21	7	1910	(502) 863-0542	Financial Manager	$82,409.00 	287
+561-66-8221	Wilmer	Rottenberg	835	North Blvd.	Frazier Park	CA	93225	1	5	1972	(661) 455-2823	Secondary School Teacher, Except Special and Vocational Education	$44,394.00 	288
+387-18-8503	John	Smith	2088	Maple Ave, Apt. 8	Viroqua	WI	54665	30	1	1981	(608) 606-6215	Executive Secretary and Administrative Assistant	$36,013.00 	289
+037-24-2096	Brandon	Mozier	1546	River Drive	West Orange	TX	77630	23	6	1983	(401) 781-9009	Counter Attendant, Cafeteria, Food Concession, and Coffee Shop	$16,421.00 	290
+329-74-8349	Mary	Doe	1937	Tenth Dr.	Galesburg	IL	61401	22	9	1994	(309) 341-7368	Cashier	$17,203.00 	291
+307-94-2487	Kizzie	Gibson	245	Fourth St.	Fort Wayne	IN	46825	4	10	1948	(219) 740-9588	Insurance Claims and Policy Processing Clerk	$30,111.00 	292
+265-61-7056	James	Bumstead	2602	River Street	Pensacola	FL	32504	7	1	1953	(850) 548-2196	Home Health Aide	$19,752.00 	293
+016-12-1700	Monica	Stephens	2222	Maple St	Natick	MA	1760	30	10	1946	(508) 314-9474	RTelemarketerIS	$21,740.00 	294
+275-28-1889	Julie	Jarrell	1593	Fourth Drive	Cincinnati	OH	45223	6	2	1992	(419) 927-1983	Shipping, Receiving, and Traffic Clerk	$25,201.00 	295
+660-07-2367	Harper	James	1255	Washington St.	Claypool	IN	46510	17	1	1977	(225) 572-8353	Pipelayer	$30,425.00 	296
+630-01-7792	Ruth	Hocker	852	First Street	Haltom City	TX	76117	29	10	1936	(682) 503-9396	Correctional Officers and Jailer	$35,012.00 	297
+388-01-4885	Tara	Glover	1808	Fourth Drive	Janesville	WI	53546	24	5	1960	(608) 718-5511	Team Assembler	$25,656.00 	298
+400-11-5610	Rudy	JVankirk	1623	XAOak Blvd.	Elna	KY	41219	4	9	1929	(606) 288-1022	Teacher Assistant	$20,651.00 	299
+579-09-3357	Kim	Fuller	1456	Williams Drive	Fairview	TN	37062	8	25	1921	(202) 223-3285	Registered Nurse	$50,056.00 	300
+410-67-1712	Donnie	BWallin	2330	View Dr.	Memphis	TN	38104	12	4	1904	(901) 292-0549	Home Health Aide	$19,950.00 	301
+286-12-2697	James	Kearney	1331	Smith Dr	Clarksburg	MD	20871	19	6	1906	(440) 839-0302	Food Preparation and Serving Related Occupation	$17,050.00 	302
+585-17-6995	Sara	Slye	1283	Spring Street	Albuquerque	NM	87102	15	6	1993	(505) 286-2662	Food Preparation and Serving Related Occupation	$17,662.00 	303
+464-29-1933	Steven	ZPollmann	1207	Sixth Avenue	Houston	TX	77012	4	4	1947	(281) 810-6038	AHighway Maintenance WorkerBN	$28,476.00 	304
+601-12-5892	Luke	Griggs	497	Sunset Ave.	Nogales	AZ	85621	20	3	1965	(520) 375-6113	CTextile Bleaching and Dyeing Machine Operator and TenderTA	$21,674.00 	305
+307-01-2490	Jodie	Morales	1822	Spring St	Bedford	IN	47421	15	10	1988	(812) 278-2069	Gaming Supervisor	$38,843.00 	306
+427-62-7858	Dennis	Rodriguez	2114	YTCenter St	Sessums	MS	39759	11	9	1909	(662) 495-0830	Computer Software Engineer, Systems Software	$79,184.00 	307
+622-22-4715	Cecelia	Parman	1103	Park Avenue, Apt. 19	Oakhurst	CA	93644	11	11	1943	(559) 683-0378	Inspector, Tester, Sorter, Sampler, and Weigher	$28,769.00 	308
+461-47-0112	Irish	Croskey	2691	Maple Dr	Alice	TX	78332	18	6	1977	(361) 603-3865	Food Preparation and Serving Related Occupation	$16,645.00 	309
+588-03-6989	LJoseph	Kondracki	803	Tenth St.	Washington	PA	15301	8	10	1920	(505) 646-0175	Packaging and Filling Machine Operators and Tender	$23,001.00 	310
+620-20-2954	Nelson	Kelly	2786	Chestnut St.	Easton	CA	93706	17	5	1916	(209) 363-5348	Bookkeeping, Accounting, and Auditing Clerk	$27,365.00 	311
+643-66-7044	Wendy	Nash	2405	Williams St	San Angelo	TX	76905	29	7	1985	(325) 450-5145	Legal Secretarie	$37,813.00 	312
+095-68-6934	Richard	Allen	794	Hickory Ave	Bronx	NY	10461	7	11	1974	(347) 615-6170	Plumber, Pipefitter, and Steamfitter	$43,794.00 	313
+491-38-0641	Connie	Diaz	2752	Laurel Avenue	Raymore	MO	64083	1	2	1968	(816) 470-4029	Receptionist and Information Clerk	$22,908.00 	314
+687-03-8775	Wesley	Fizer	233	South Ave.	Wendell	NC	27591	5	1	1964	(919) 366-4096	Shipping, Receiving, and Traffic Clerk	$24,235.00 	315
+453-02-8819	Sarah	Tatters	531	Fifth Ave.	Grapevine	TX	76051	4	3	1954	(682) 651-1876	GSelf-Enrichment Education TeacherPH	$33,047.00 	316
+233-68-5626	Joanne	Fant	1926	Lake St.	West Hamlin	WV	25571	26	5	1914	(304) 706-1500	Team Assembler	$24,728.00 	317
+512-96-6363	Marta	Messana	1831	DNCherry Ave.	Jacksonville	FL	32244	22	9	1968	(785) 922-8834	RGeneral and Operations ManagerWT	$80,210.00 	318
+444-60-0699	Loreen	Landry	1809	Second St.	Okmulgee	OK	74447	15	1	1930	(918) 304-3989	Billing and Posting Clerks and Machine Operator	$26,074.00 	319
+543-66-8825	Jones	Callie	2996	Jackson Ave.	Virginia Beach	VA	23462	1	21	1984	(360) 424-8300	Food Preparation and Serving Related Occupation	$17,840.00 	320
+648-52-8842	VGerald	Jones	1117	QSFifth Drive	West Salem	WI	54669	7	2	1982	(435) 207-4406	VFood Preparation WorkerFV	$17,880.00 	321
+626-18-4966	Benjamin	John	843	Cherry Avenue	Visalia	CA	93277	5	9	1969	(760) 299-3260	Retail Salesperson	$22,564.00 	322
+256-43-1915	XJohn	VThomas	1912	Eleventh Dr	Maple Park	IL	60151	9	2	1985	(912) 363-6465	Office Clerk, General	$23,961.00 	323
+649-56-8093	David	Satterfield	2533	Fourth St	Jersey Village	TX	77040	4	2	1945	(281) 885-5424	Psychiatric Technician	$28,234.00 	324
+298-54-9019	Hernandez	Willie	1505	Sycamore St.	Los Angeles	CA	90048	10	11	1969	(419) 990-0888	Transportation Inspector	$49,222.00 	325
+621-50-1723	John	Corbin	1328	Green Ave.	Van Nuys	CA	91401	24	2	1916	(805) 371-4957	Nursing Aide, Orderly, and Attendant	$20,508.00 	326
+222-62-6397	Jimmie	Enger	103	Main Dr	Marshallton	DE	19808	2	22	1905	(302) 477-2693	Cashier	$16,570.00 	327
+406-52-4513	Patrica	Colella	2889	Washington Drive	Tice	FL	33905	24	8	1992	(502) 317-2961	Food Preparation Worker	$17,447.00 	328
+274-98-2730	Glenn	Johnson	2087	Spring Ave.	Youngstown	OH	44507	26	1	1967	(330) 534-3927	Food Preparation and Serving Related Occupation	$16,345.00 	329
+535-25-9568	Bailey	Murphy	2071	Spring Drive	Kent	WA	98031	10	4	1940	(253) 308-7751	Telemarketer	$22,351.00 	330
+112-62-7563	Erik	DWaid	1868	Second Ave.	Mastic	NY	11950	18	8	1930	(631) 772-2271	Office Clerk, General	$22,616.00 	331
+174-05-9664	Procopio	Ashley	2862	Thirteenth Street	Harrisville	PA	16038	4	9	1906	(724) 735-1037	Stock Clerk and Order Filler	$21,583.00 	332
+346-22-4940	Luise	Gardino	2688	Sunset St	West Chicago	IL	60185	1	4	1945	(217) 564-9194	CRefuse and Recyclable Material CollectorTT	$25,402.00 	333
+178-58-4381	Samuel	ZTruluck	1455	Cedar Avenue	Philadelphia	PA	19140	9	6	1990	(215) 629-6062	QPostal Service Mail CarrierQY	$40,475.00 	334
+462-66-1099	Maria	Carriere	2201	North Dr.	Corpus Christi	TX	78411	27	2	1939	(361) 806-3754	Truck Driver, Heavy and Tractor-Trailer	$34,863.00 	335
+477-46-0839	Mills	Bertha	2527	BKEast Ave	Hamilton	NJ	8609	7	7	1970	(507) 485-9427	Reservation and Transportation Ticket Agent and Travel Clerk	$29,080.00 	336
+686-01-4603	OAlicia	Poole	1828	Eighth Avenue	Gastonia	NC	28052	14	7	1998	(828) 455-2299	Construction and Building Inspector	$43,845.00 	337
+390-24-7202	David	Reath	2658	Sixth Dr.	Cassville	WI	53806	5	7	1905	(608) 725-2634	Security Guard	$20,477.00 	338
+423-09-3418	ZCynthia	Weiland	1356	Eighth Ave.	Mobile	AL	36605	29	7	1982	(251) 662-4701	First-Line Supervisor/Manager of Food Preparation and Serving Worker	$26,329.00 	339
+505-15-3391	John	Lakes	297	Park St	Fort Calhoun	NE	68023	16	4	1945	(402) 468-9616	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$20,186.00 	340
+402-32-5277	Helen	Bean	2190	Forest Ave.	Anchorage	KY	40223	19	5	1991	(502) 346-7114	Personal and Home Care Aide	$17,559.00 	341
+679-03-5238	Mariam	Curran	602	View Street	Reinholds	PA	17569	25	7	1974	(479) 788-2260	Fire Fighter	$38,426.00 	342
+461-94-0091	Hope	Taylor	518	Seventh Drive	West Orange	TX	77630	28	12	1932	(409) 626-7964	Dental Assistant	$27,040.00 	343
+372-52-5725	Daryl	Neas	211	Spring Ave., Apt. 7	New Orleans	LA	70118	28	7	1928	(734) 316-4477	Sound Engineering Technician	$45,578.00 	344
+486-76-4196	Eric	CEdward	2272	CNWashington St	Concord	CA	94520	29	1	1931	(573) 628-3731	Sales Engineer	$69,795.00 	345
+283-64-0442	Annie	Gingrich	2999	Main Ave.	Mogadore	OH	44260	12	5	1978	(330) 230-3287	Lawyer	$105,197.00 	346
+267-57-5267	Corey	Brining	765	Green Street	Miami	FL	33183	22	1	1992	(305) 909-8692	LRetail SalespersonDV	$21,431.00 	347
+380-94-5205	Latona	Kathryn	1984	Jackson Drive, Apt. 15	Seattle	WA	98136	29	4	1932	(616) 431-6453	Subway and Streetcar Operator	$49,137.00 	348
+407-16-4376	FDarlene	Tow	522	EHThirteenth St	Soddy Daisy	TN	37379	7	5	1941	(423) 774-0914	Dental Assistant	$27,791.00 	349
+641-42-3648	Angela	Freer	350	Second St.	Houston	TX	77036	8	2	1971	(281) 415-1472	Laborer and Freight, Stock, and Material Movers, Hand	$20,868.00 	350
+364-44-4144	Dian	Prideaux	2477	Lakeview Drive	Harahan	LA	70123	19	1	1987	(248) 472-1231	Judge, Magistrate Judge, and Magistrate	$85,220.00 	351
+261-23-3503	Patee	Rita	1483	Church Ave	Palma Sola	FL	34209	11	3	1950	(941) 757-2701	YCleaner of Vehicles and EquipmentBE	$18,788.00 	352
+687-05-8494	Walton	Marlene	649	Tenth Dr	Tenaha	TX	75974	3	10	1980	(336) 427-1545	Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tender	$32,954.00 	353
+124-32-8419	Felicia	JFrye	742	Fifth Dr., Apt. 21	Brooklyn	NY	11218	4	6	1971	(347) 549-0157	HJanitor and Cleaner, Except Maids and Housekeeping CleanerKY	$20,185.00 	354
+606-05-7033	Holmes	Mark	1339	Park St	San Diego	CA	92120	11	3	1993	(619) 682-4140	Construction Manager	$67,772.00 	355
+465-61-9641	Ellen	Crist	376	Third Blvd., Apt. 26	Houston	TX	77089	16	5	1983	(281) 653-7104	Truck Driver, Light Or Delivery Service	$25,613.00 	356
+334-74-5855	MVictor	Huser	1704	TPSecond Drive, Apt. 8	Lincolnwood	IL	60646	3	7	1946	(312) 770-2631	Customer Service Representative	$27,863.00 	357
+458-91-7850	Rosalie	JKing	948	Hill Avenue	Austin	TX	78722	12	9	1912	(512) 300-5666	Helper--Production Worker	$21,051.00 	358
+510-26-5272	Lori	LLeona	1060	Eleventh St.	Memphis	TN	38106	26	6	1928	(785) 228-7640	Computer Software Engineer, Application	$74,466.00 	359
+223-79-0383	Betsey	Michelotti	1172	Meadow St	Jeffersontown	KY	40299	17	8	1992	(804) 885-1112	First-Line Supervisor/Manager of Mechanics, Installers, and Repairer	$50,793.00 	360
+767-18-2135	KLorraine	Rice	792	YMRiver Dr.	Lake Alfred	FL	33850	18	4	1979	(863) 412-9338	Licensed Practical and Licensed Vocational Nurse	$31,249.00 	361
+594-72-2474	PMichael	Brooks	2463	Railroad St	Miami Shores	FL	33138	5	8	1927	(305) 458-6913	Parts Salesperson	$26,618.00 	362
+767-16-2194	Arriaga	Joann	847	Cedar Avenue	South Miami	FL	33143	2	2	1958	(305) 807-3970	Data Entry Keyer	$23,979.00 	363
+341-24-0044	Joe	Ackermann	982	Lee Drive	Elk Grove Villag	IL	60007	1	10	1998	(224) 622-4111	RTellerAW	$21,044.00 	364
+504-46-2874	Brian	Huang	1669	First Ave	Sioux Falls	SD	57106	1	7	1951	(605) 753-8698	MLaborer and Freight, Stock, and Material Movers, HandMV	$20,968.00 	365
+015-82-5510	Shelley	Timmer	1656	Johnson Drive	Somerville	MA	2143	27	11	1947	(617) 941-4236	General and Operations Manager	$82,723.00 	366
+053-74-7877	Carol	Martinez	597	Pine Dr.	Arlington	NY	12603	12	1	1942	(845) 650-2152	General and Operations Manager	$85,289.00 	367
+311-66-5315	Maricela	Gibson	2485	North Avenue	Bellflower	CA	90706	5	1	1989	(812) 255-8365	Office Clerk, General	$22,801.00 	368
+441-02-8925	Kristie	Wood	912	Fifth Dr	Dallas	TX	75227	2	11	1928	(580) 297-1612	Food Preparation Worker	$17,098.00 	369
+519-50-9406	Walter	Gregg	1892	Birch Ave.	Walkerville	MT	59701	21	2	1973	(406) 563-9934	Motorboat Mechanic	$30,307.00 	370
+577-50-9378	Trentini	Dean	2282	Smith St.	Washington	DC	20020	10	3	1969	(202) 223-4018	Computer Software Engineer, Application	$76,460.00 	371
+603-54-1684	Blair	Lara	2487	Walnut St.	West Menlo Park	CA	94025	29	8	1943	(650) 946-7615	Police and Sheriff's Patrol Officer	$42,071.00 	372
+687-01-6856	Leslie	Loethen	2971	Miller Dr.	Farmer	NC	27203	24	8	1907	(704) 355-5558	Cutter and Trimmer, Hand	$25,328.00 	373
+030-44-0335	Thomas	Jordan	1823	First Avenue	Yarmouth Port	MA	2675	19	7	1962	(508) 805-4517	Middle School Teacher, Except Special and Vocational Education	$45,903.00 	374
+146-24-6635	James	Willis	1782	Ninth Avenue	Weehawken	NJ	7087	28	1	1977	(908) 408-9428	Aerospace Engineer	$76,782.00 	375
+232-09-5636	James	Hoffelt	2365	Fourteenth Ave	Delair	NJ	8110	19	3	1919	(304) 803-7225	Secretary, Except Legal, Medical, and Executive	$27,273.00 	376
+611-14-3256	Ethel	JAshley	883	View Ave.	San Francisco	CA	94112	16	10	1960	(415) 773-4455	Packaging and Filling Machine Operators and Tender	$22,286.00 	377
+018-38-7254	Luis	Brown	602	East Ave.	Acton	MA	1720	5	7	1920	(508) 683-2129	Bus and Truck Mechanic and Diesel Engine Specialist	$33,877.00 	378
+009-14-8074	Patricia	Brown	1001	Park Dr	Waterbury	VT	5676	9	8	1967	(802) 244-8296	Truck Driver, Heavy and Tractor-Trailer	$35,247.00 	379
+547-27-4411	Sandra	Sanders	2885	Sixth Street	Vallejo	CA	94591	26	4	1981	(707) 551-7312	Food Preparation and Serving Related Occupation	$17,097.00 	380
+40-52-6622	NRon	Harrison	1682	Central Avenue	Cranston	RI	2920	12	12	1978	(603) 370-0820	Retail Salesperson	$21,652.00 	381
+608-08-1693	Tonya	Montague	233	Sunset Blvd.	Long Beach	CA	90802	18	5	1967	(310) 932-7376	Licensed Practical and Licensed Vocational Nurse	$33,857.00 	382
+414-45-8659	William	Loughary	2257	Hillcrest Avenue	Memphis	TN	38111	1	2	1946	(901) 345-1718	Truck Driver, Light Or Delivery Service	$26,196.00 	383
+146-14-6640	Lucille	Chabot	2049	PDWashington Dr	Maple Shade	NJ	8052	20	10	1907	(856) 810-0502	Dental Assistant	$29,194.00 	384
+542-29-3528	Joyce	Huffman	1581	Fifth St.	Sheridan	OR	97378	25	5	1960	(503) 843-7680	Cutting and Slicing Machine Setter, Operator, and Tender	$25,774.00 	385
+536-11-7772	Mark	OBrown	543	KQFourth Dr.	Langley	WA	98260	26	9	1993	(360) 341-7984	Laborer and Freight, Stock, and Material Movers, Hand	$21,774.00 	386
+490-46-4666	CBenjamin	Stratton	2076	Fifteenth Blvd.	Freeman	MO	64746	6	5	1994	(816) 899-2662	Electrical and Electronic Engineering Technician	$46,388.00 	387
+061-70-1780	Hazel	Cawthon	1274	Fifth Blvd.	Youngstown	OH	44510	27	7	1913	(631) 368-6045	Sheet Metal Worker	$37,318.00 	388
+672-03-4226	VAaron	Umana	416	Ninth Ave.	Lawrenceville	GA	30245	3	4	1949	(770) 927-4020	Stock Clerk and Order Filler	$20,992.00 	389
+300-42-7258	Louviere	Dennis	1941	Broadway Drive	Lexington	GA	30648	3	6	1912	(440) 293-9329	Meat, Poultry, and Fish Cutters and Trimmer	$19,369.00 	390
+637-50-8593	Bernice	Peterson	957	Center Dr	Round Rock	TX	78681	1	9	1936	(512) 505-5121	Elementary School Teacher, Except Special Education	$44,338.00 	391
+385-18-8276	Daryl	Costigan	2941	Church Dr.	Marshall	MI	49068	24	7	1984	(269) 781-4212	BNursing Aide, Orderly, and AttendantOB	$20,527.00 	392
+662-07-8864	Walton	Wanda	602	LIFifth Blvd.	Plain Dealing	LA	71064	29	1	1969	(318) 326-4363	Cashier	$17,016.00 	393
+094-78-4576	Chiquita	Sauce	100	Seventh Dr.	South Bend	IN	46601	8	8	1939	(347) 733-1560	Telecommunications Equipment Installer and Repairer, Except Line Installer	$44,667.00 	394
+617-16-2058	Owens	EJoseph	1695	Third Street	Long Beach	CA	90805	12	9	1962	(310) 870-8613	Construction Laborer	$28,367.00 	395
+513-21-3521	MDaniel	JWood	532	Cherry Ave.	Shenango	PA	16125	9	1	1985	(316) 351-0192	Food Preparation Worker	$17,952.00 	396
+467-10-5860	Heather	Hammer	2816	ORPark Blvd.	Sherman	TX	75090	4	5	1985	(903) 328-6782	Medical and Health Services Manager	$66,703.00 	397
+308-40-8904	TMary	Tineo	1568	River Dr	Carlton	MN	55718	18	10	1939	(765) 506-7289	Automotive Body and Related Repairer	$33,714.00 	398
+401-66-7837	John	Rodriguez	278	Fifth Blvd.	Pontotoc	MS	38863	2	1	1907	(606) 417-5143	Sheet Metal Worker	$37,683.00 	399
+377-14-7868	Jo	QIngram	1191	North Ave.	South Miami	FL	33143	1	10	1954	(248) 472-1308	Numerical Tool and Process Control Programmer	$39,068.00 	400
+132-42-2498	Elizabeth	Bain	457	Fifth Dr, Apt. 22	San Diego	CA	92104	9	2	1993	(347) 203-8497	Helpers--Installation, Maintenance, and Repair Worker	$23,523.00 	401
+622-74-4679	BHarold	Crosbie	1737	Meadow Ave	Barry	MN	56210	6	10	1948	(650) 607-4346	Elementary School Teacher, Except Special Education	$42,766.00 	402
+283-44-0444	Earlene	Arthur	702	HHMain Drive	Norwood	OH	45212	24	12	1936	(937) 302-3175	Construction Laborer	$28,329.00 	403
+286-38-2698	RKelvin	Hatfield	1663	Park Ave.	Stow	OH	44224	16	1	1955	(234) 555-9327	Teacher Assistant	$20,182.00 	404
+258-10-5443	Cory	Raycraft	190	Sunset Ave.	Gainesville	GA	30504	27	9	1963	(678) 776-6113	Cutting, Punching, and Press Machine Setter, Operator, and Tender, Metal and Plastic	$25,663.00 	405
+594-53-2478	James	Goncalves	637	Oak Blvd.	College Parkway	FL	33919	30	10	1923	(941) 651-4485	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$20,039.00 	406
+535-08-5479	Pauline	Blankenship	388	Third Dr	Las Vegas	NV	89104	13	6	1961	(702) 301-7928	NMerchandise Displayer and Window TrimmerNN	$24,661.00 	407
+644-60-2535	Todd	Colvin	782	Elm Dr, Apt. 5	Houston	TX	77021	7	1	1989	(281) 674-7583	Bill and Account Collector	$27,514.00 	408
+540-26-3099	CJohn	Penwell	1360	Park Avenue	Lake Oswego	OR	97034	9	2	1908	(503) 212-1475	Food Preparation and Serving Related Occupation	$17,021.00 	409
+333-03-0018	Darren	Campbell	1306	Hickory Dr.	Dorchester	IL	62033	29	12	1967	(618) 362-9869	Food Preparation and Serving Related Occupation	$16,730.00 	410
+143-82-3281	Barbara	Raymond	2208	Lincoln Dr	Brick	NJ	8724	1	6	1904	(732) 674-0542	Financial Manager	$80,813.00 	411
+019-20-0099	Pamela	Cox	2091	Maple Dr.	Haverhill	MA	1832	2	11	1975	(978) 521-7352	Customer Service Representative	$27,249.00 	412
+085-46-2606	Edward	Harbin	2982	KSMeadow Blvd.	Staten Island	NY	10314	2	3	1994	(347) 682-0613	Gaming Change Persons and Booth Cashier	$19,669.00 	413
+045-50-6420	Genie	Heryford	2610	Fifth Street	Cadwell	GA	31009	21	5	1952	(860) 376-4196	PHome Economics Teacher, PostsecondaryYM	$56,067.00 	414
+604-16-8597	Jason	VSwink	2873	Hill Street	Mountain View	CA	94041	6	10	1941	(650) 944-4148	Stock Clerk and Order Filler	$20,941.00 	415
+339-05-2341	Opal	Krantz	182	Fourth Dr	Freeport	IL	61032	24	6	1912	(815) 656-8511	Network and Computer Systems Administrator	$57,165.00 	416
+606-80-8598	JCarmen	Adams	1950	Thirteenth Street	Santa Ana	CA	92701	14	9	1999	(714) 660-1013	Carpenter	$36,608.00 	417
+184-66-6635	Katrina	Hernandez	1933	OJJefferson Avenue	Forks Township	PA	18042	26	3	1984	(484) 499-2247	Child Care Worker	$16,843.00 	418
+672-03-3331	Jordan	Rubin	1645	Main Street	Evans	GA	30809	28	4	1963	(706) 598-4365	Payroll and Timekeeping Clerk	$31,165.00 	419
+12/1/5367	Amanda	XSprosty	1871	Second Avenue	Framingham	MA	1701	26	7	1984	(508) 202-1419	Cashier	$16,077.00 	420
+466-55-2315	Andy	Cortes	981	Second Blvd.	San Antonio	TX	78207	3	2	1917	(210) 353-4832	General and Operations Manager	$87,323.00 	421
+224-42-7022	Philip	Beeckman	1069	Ninth Ave	Franconia	VA	22310	27	6	2000	(571) 642-7090	Architect, Except Landscape and Naval	$61,327.00 	422
+551-71-9615	BMark	Baroody	293	North St	Oklahoma City	OK	73135	14	7	1990	(626) 765-1255	Judge, Magistrate Judge, and Magistrate	$81,237.00 	423
+626-26-4955	Cornelius	Lipsky	1709	Railroad Street	Los Angeles	CA	90004	22	8	1926	(213) 205-8521	Special Education Teacher, Preschool, Kindergarten, and Elementary School	$45,084.00 	424
+690-01-2407	Marcia	Coombe	1793	Park St	Winston Salem	NC	27106	27	1	1917	(336) 581-2398	Retail Salesperson	$20,738.00 	425
+303-02-2491	Sara	Pate	2427	East Dr	Marion	IN	46952	2	18	1945	(765) 733-6773	Elementary School Teacher, Except Special Education	$46,061.00 	426
+543-15-3106	Corine	Weaver	2896	Oak Street	Hermiston	OR	97838	26	12	1990	(541) 720-3054	Maid and Housekeeping Cleaner	$17,662.00 	427
+250-72-4056	Stephen	Peoples	2166	Second Dr	Sumter	SC	29154	26	4	1911	(803) 436-2231	Nonfarm Animal Caretaker	$19,280.00 	428
+357-50-7125	David	Parker	2525	Eleventh Blvd.	Prophetstown	IL	61277	5	2	1926	(815) 537-9004	Fire Fighter	$35,672.00 	429
+579-88-3359	Mary	Millan	2401	GAHighland Avenue	Washington	DC	20020	13	3	1934	(202) 223-4608	Procurement Clerk	$31,201.00 	430
+376-36-5733	Raymond	Bragg	570	Cedar St.	Lowell	MI	49331	16	8	1993	(616) 421-5582	Insurance Sales Agent	$54,739.00 	431
+431-38-7396	Rudolph	Tobiassen	2949	EJSmith St	Birdsnest	VA	23307	15	1	1946	(318) 367-1824	Plumber, Pipefitter, and Steamfitter	$43,015.00 	432
+477-04-0846	Evelyn	Moncada	2095	Tenth Dr., Apt. 14	Dry Fork	VA	24549	18	2	1945	(507) 990-9019	Administrative Services Manager	$56,390.00 	433
+497-76-5744	Marguerite	Haynes	363	Park Avenue	Kansas City	MO	64164	19	7	1991	(660) 555-5203	News Analyst, Reporter and Correspondent	$39,406.00 	434
+585-51-6993	Joseph	Pagan	667	Elm St.	Las Cruces	NM	88001	2	2	1920	(505) 678-7034	IFirst-Line Supervisor/Manager of Mechanics, Installers, and RepairerBJ	$47,677.00 	435
+646-36-8871	Burris	Henry	2718	Park Blvd.	St George	UT	84770	15	3	1920	(435) 710-6134	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$20,045.00 	436
+553-51-6700	Matthew	Rubin	2182	Fourteenth Dr.	Bakersfield	CA	93304	22	2	1965	(661) 281-7614	Waiter	$16,207.00 	437
+020-54-4573	Valerie	Barnett	2806	South Dr	Lynn	MA	1902	26	9	1945	(781) 268-5545	Secretary, Except Legal, Medical, and Executive	$26,083.00 	438
+668-14-7155	YGrace	Palacios	1645	Lincoln Dr	Brunswick	GA	31525	13	1	1979	(912) 242-4534	General and Operations Manager	$81,951.00 	439
+391-54-2305	Geraldine	Burton	100	Church Blvd.	Appleton	WI	54914	17	9	1939	(715) 366-0987	First-Line Supervisor/Manager of Office and Administrative Support Worker	$43,249.00 	440
+508-92-0781	Norma	Conner	1115	Laurel St	Nebraska City	NE	68410	24	1	1948	(402) 713-9532	EExecutive Secretary and Administrative AssistantJJ	$36,156.00 	441
+175-62-8576	Elizabeth	Maupin	654	Sycamore Ave.	Salem	OR	97301	10	9	1975	(215) 807-9478	Construction Laborer	$27,740.00 	442
+670-03-0626	FBrent	Torres	998	WSMaple Dr	Chamblee	GA	30341	24	6	1991	(404) 339-7661	Veterinary Technologist and Technician	$23,235.00 	443
+606-29-7011	Claire	Stanbrough	2836	Hickory Dr.	Holt	AL	35404	5	28	1980	(530) 658-0543	Sales Representative, Wholesale and Manufacturing, Except Technical and Scientific Product	$51,236.00 	444
+602-54-8270	Seth	SFisher	2180	Lincoln Blvd.	Santa Ana	CA	92704	11	8	1947	(714) 463-9428	Food Preparation and Serving Related Occupation	$17,528.00 	445
+461-28-0087	Lisa	Vongkhamphanh	2741	Meadow Ave, Apt. 10	El Paso	TX	79924	20	10	1926	(325) 555-6128	Truck Driver, Heavy and Tractor-Trailer	$34,444.00 	446
+262-57-7925	Rick	Stanley	167	Miller Avenue	Waynesburg	OH	44688	8	3	1950	(850) 379-7052	Painter, Transportation Equipment	$35,269.00 	447
+438-57-7407	Diane	Morgan	2658	Birch Drive	Boyce	LA	71409	18	7	1919	(318) 277-2710	Extruding, Forming, Pressing, and Compacting Machine Setter, Operator, and Tender	$27,580.00 	448
+503-05-8323	Charles	Darnold	507	Maple Blvd.	Box Elder	SD	57719	2	11	1972	(605) 375-7385	Team Assembler	$25,198.00 	449
+567-69-6712	Mary	Hargreaves	157	Seventh St.	Tamo	AR	71644	4	1	1912	(310) 494-9192	Food Preparation Worker	$17,782.00 	450
+379-24-4894	QChristopher	Freels	564	Poplar Ave	Springfield	MA	1109	18	12	1919	(517) 294-0782	Real Estate Sales Agent	$42,589.00 	451
+655-03-5877	Lois	Carter	395	Sunset St.	Kingstree	SC	29556	16	11	1986	(843) 355-9246	Airline Pilot, Copilot, and Flight Engineer	$125,809.00 	452
+480-66-7478	Nora	Simmons	2945	Lake Ave.	West Point	IA	52656	3	5	1950	(319) 256-3905	Automotive Service Technician and Mechanic	$33,817.00 	453
+239-17-1885	Alphonso	Houts	2427	Lincoln Dr	Cape Fear	NC	28401	21	6	1952	(910) 795-7637	Janitor and Cleaner, Except Maids and Housekeeping Cleaner	$19,930.00 	454
+165-64-3527	Mildred	Ohme	1975	Laurel Ave	Washington	PA	15301	4	12	1994	(412) 217-9554	Carpenter	$38,617.00 	455
+115-05-7466	Margaret	Morris	2093	South St.	Hudson	NY	12534	15	7	1926	(518) 965-6035	Bartender	$16,317.00 	456
+648-03-9165	DFloyd	Gray	2628	Highland St	Las Vegas	NM	87701	29	1	1933	(505) 426-2645	Stock Clerk and Order Filler	$21,682.00 	457
+509-94-3340	Shawn	Christensen	1017	Ninth Ave	Wichita	KS	67212	21	6	1921	(316) 269-3630	Education Administrator, Elementary and Secondary School	$72,509.00 	458
+268-28-6900	Thuy	Beadle	886	Smith St	Pasadena	TX	77502	13	4	2000	(813) 927-0392	Electric Motor, Power Tool, and Related Repairer	$34,047.00 	459
+234-28-8692	Michael	Lieb	1980	Highland St., Apt. 2	New England	WV	26181	28	7	1912	(304) 477-4176	Pharmacist	$75,790.00 	460
+357-90-5100	Amy	Koonce	347	Eighth Ave	Cicero	IL	60650	16	6	1994	(708) 484-7731	Waiter	$16,312.00 	461
+083-48-9377	Anna	HCastillo	120	Second Blvd.	Pomona	NY	10970	16	12	1915	(845) 355-1709	Secretary, Except Legal, Medical, and Executive	$26,794.00 	462
+374-86-7959	Christopher	ABaiera	2396	Franklin Dr.	Southgate	MI	48195	14	8	1921	(734) 610-5958	Industrial Machinery Mechanic	$41,292.00 	463
+364-09-4177	Donna	Wills	498	First Dr.	Crystal Falls	MI	49920	10	5	1931	(906) 875-4755	Nursing Aide, Orderly, and Attendant	$21,054.00 	464
+595-34-5119	Grunwald	Gerald	401	Highland St	Dunlawton	FL	32119	1	12	1929	(386) 255-3672	Billing and Posting Clerks and Machine Operator	$25,886.00 	465
+192-40-8089	TRoy	Denton	2129	Lake Ave.	Yardley	PA	19067	12	4	1993	(215) 369-9400	Data Entry Keyer	$23,702.00 	466
+227-42-5781	Nelson	Nivens	719	Williams Dr	Richmond	VA	23225	9	1	1904	(804) 271-4021	First-Line Supervisor/Manager of Production and Operating Worker	$44,278.00 	467
+067-28-1275	Jackie	Dill	1526	Park Drive	Queens Village	NY	11429	13	2	1971	(516) 500-4066	General and Operations Manager	$84,874.00 	468
+536-03-7773	Alice	Villasenor	1821	Hill Ave.	Tacoma	WA	98404	19	11	1971	(253) 619-7335	YLawyerWK	$104,022.00 	469
+478-16-6852	Ronald	Hidvegi	1053	Park Street	White Plains	NY	10605	8	4	1984	(641) 648-3306	RBill and Account CollectorHA	$27,333.00 	470
+267-28-5261	Stephanie	Spies	2031	Dogwood St.	Cocoa	FL	32922	23	4	1944	(321) 227-2780	Laborer and Freight, Stock, and Material Movers, Hand	$21,629.00 	471
+145-70-4258	Mark	Custer	308	Second Drive	Bordentown	NJ	8505	12	6	1967	(609) 456-9139	Radiologic Technologist and Technician	$41,546.00 	472
+421-96-8298	Henriette	Keisker	2087	Fifteenth Dr	Gurley	AL	35748	26	2	1939	(256) 776-6265	Bookkeeping, Accounting, and Auditing Clerk	$27,486.00 	473
+643-54-7005	Sara	Sherbondy	1047	Center St.	Sonora	OH	43701	25	2	1966	(281) 922-1557	Private Detectives and Investigator	$34,257.00 	474
+325-34-5867	NBurton	William	2936	Green Dr	Wheeling	IL	60090	18	4	1923	(224) 588-1656	Secretary, Except Legal, Medical, and Executive	$25,255.00 	475
+219-84-6166	Purdie	Elvira	2019	Seventh Drive	Colesville	MD	20904	10	4	1942	(410) 297-4425	Retail Salesperson	$21,950.00 	476
+196-78-1787	James	SWalker	599	Eighth Avenue	Forks Township	PA	18042	2	8	1980	(484) 863-4061	Meat, Poultry, and Fish Cutters and Trimmer	$18,779.00 	477
+121-07-4468	Socorro	Hayworth	542	Thirteenth St	Middle Island	NY	11953	2	10	1937	(631) 668-6352	Loan Officer	$50,453.00 	478
+351-84-4397	Linda	Dennison	1178	Fourth Ave	Chatham	IL	62629	14	7	1964	(217) 483-5063	Food Preparation and Serving Related Occupation	$16,549.00 	479
+402-32-5250	Vanesa	Lebrane	793	Washington Ave.	Stafford	TX	77477	23	8	1954	(606) 798-9335	ZIndustrial Truck and Tractor OperatorKH	$27,011.00 	480
+570-24-3980	Neil	Tetzlaff	161	Franklin St	Mill Valley	CA	94941	5	1	1991	(415) 879-2149	Office Clerk, General	$23,865.00 	481
+627-78-4888	Ann	Wand	726	Railroad Blvd.	Tyler	TX	75707	1	5	1945	(903) 316-0780	Office Clerk, General	$23,276.00 	482
+143-30-3258	Fernando	Powell	619	Washington Ave.	Bisbee	AZ	85603	1	7	1955	(862) 203-2242	Prepress Technician and Worker	$34,558.00 	483
+365-40-1160	Brenda	Adams	1689	View St.	Coldwater	MI	49036	10	2	1995	(517) 238-4568	Bailiff	$33,878.00 	484
+667-09-8094	Adam	MRagsdale	1750	UFHill St.	Norcross	GA	30092	25	7	1944	(678) 918-5482	Counter and Rental Clerk	$19,241.00 	485
+147-70-5918	Fred	Slattery	2459	Elm Dr	Washington	NJ	8012	28	8	1998	(609) 321-0437	Host, Restaurant, Lounge, and Coffee Shop	$16,425.00 	486
+148-14-5466	James	Chao	2170	Third Avenue	Trenton	NJ	8618	18	10	1916	(609) 562-5974	Secretary, Except Legal, Medical, and Executive	$26,160.00 	487
+294-10-4435	Karen	Hickman	969	Broadway Ave	Brockton	MA	2401	10	10	1907	(740) 859-8752	Office Clerk, General	$23,588.00 	488
+088-10-3112	Anthony	Fontanez	2605	Lincoln Avenue	Chicago	IL	60607	12	3	1920	(347) 728-4595	Office Machine Operators, Except Computer	$23,267.00 	489
+564-29-3053	Mckeen	Kathryn	1661	River Blvd.	Huntington Park	CA	90255	11	5	1986	(310) 317-9030	Communications Teacher, Postsecondary	$53,528.00 	490
+332-74-0989	Callender	Delbert	2757	Lincoln Dr.	Broadview	IL	60153	23	3	1943	(815) 568-4568	Office Clerk, General	$23,908.00 	491
+398-62-4290	FElizabeth	Rangel	2698	Lincoln Blvd.	Janesville	WI	53545	20	10	1995	(608) 563-6603	Laborer and Freight, Stock, and Material Movers, Hand	$21,455.00 	492
+270-80-7059	William	Nguyen	1717	Broadway St	Midway	PA	15060	12	8	1997	(937) 962-1418	Food Batchmaker	$23,892.00 	493
+235-52-5676	Crystal	Witt	2425	South St.	Lenoir	NC	28645	8	8	1990	(828) 758-6028	Construction Laborer	$28,230.00 	494
+307-12-2497	Pamela	Perez	2622	Park Ave.	Carmel	IN	46032	18	6	1985	(317) 816-5907	OCook, RestaurantGK	$19,128.00 	495
+633-10-7740	Michael	Durall	1533	SKHill Avenue	Duxbury	MA	2332	16	1	1926	(254) 421-9107	Sheet Metal Worker	$38,141.00 	496
+539-64-5884	Andrea	Anderson	1919	Eighth St	Wide Hollow	WA	98908	25	11	1943	(509) 304-8071	General and Operations Manager	$85,849.00 	497
+678-05-1487	Marion	Berry	2366	Fifth Blvd.	Little Rock	AR	72212	9	7	1910	(501) 310-7940	Carpenter	$35,644.00 	498
+647-38-5076	Cornelius	Familia	1333	Walnut Avenue	Lark	UT	84065	20	9	1937	(435) 725-6277	Insurance Sales Agent	$51,629.00 	499
+295-82-2029	Salley	HMargo	1707	East Dr	Independence	OH	44131	6	16	1922	(216) 642-5314	Bill and Account Collector	$29,654.00 	500

@@ -1,0 +1,10 @@
+R01|Mary Doe, 123 Oak Street, Memphis, 72204
+R02|John Doe ,123 Oak St, Memphis, TN, 72204
+R03|John Doe, 456 Elm Street, Little Rock,ARK, 72212
+R04|Becky Smith, 456 Elm Street, Little Rock, arkansas, 72212
+R05|Mary Doe, 110 Main St, Houston, TX, 88811
+R06|John Doe, 100 Main St, Houston, TX, 88811
+R07|William Jones, 921 Rose Avenue, Houston, TX, 97778
+R08|Susan Jones, 921 Rose Avenue, Mary Land, TX, 87771
+R09|Bill Jones, 679 Pine RD #110, Disnep Land, New Jersey
+R10|Sue Jones, 679 Pine RD #110, Disnep Land, New Jersey

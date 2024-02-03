@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@latest/styles/vis-network.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"id": "C4", "label": "C4", "shape": "dot", "size": 10}, {"id": "C5", "label": "C5", "shape": "dot", "size": 10}, {"id": "R07", "label": "R07", "shape": "dot", "size": 10}, {"id": "R08", "label": "R08", "shape": "dot", "size": 10}, {"id": "R09", "label": "R09", "shape": "dot", "size": 10}, {"id": "R10", "label": "R10", "shape": "dot", "size": 10}, {"id": "C2", "label": "C2", "shape": "dot", "size": 10}, {"id": "C3", "label": "C3", "shape": "dot", "size": 10}, {"id": "C1", "label": "C1", "shape": "dot", "size": 10}, {"id": "R03", "label": "R03", "shape": "dot", "size": 10}, {"id": "R04", "label": "R04", "shape": "dot", "size": 10}, {"id": "R05", "label": "R05", "shape": "dot", "size": 10}, {"id": "R06", "label": "R06", "shape": "dot", "size": 10}, {"id": "R01", "label": "R01", "shape": "dot", "size": 10}, {"id": "R02", "label": "R02", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "C4", "label": 1, "to": "C5", "weight": 1}, {"from": "C4", "label": 1, "to": "R07", "weight": 1}, {"from": "C4", "label": 1, "to": "R08", "weight": 1}, {"from": "C5", "label": 1, "to": "R09", "weight": 1}, {"from": "C5", "label": 1, "to": "R10", "weight": 1}, {"from": "C2", "label": 1, "to": "C3", "weight": 1}, {"from": "C2", "label": 1, "to": "C1", "weight": 1}, {"from": "C2", "label": 1, "to": "R03", "weight": 1}, {"from": "C2", "label": 1, "to": "R04", "weight": 1}, {"from": "C3", "label": 1, "to": "C1", "weight": 1}, {"from": "C3", "label": 1, "to": "R05", "weight": 1}, {"from": "C3", "label": 1, "to": "R06", "weight": 1}, {"from": "C1", "label": 1, "to": "R01", "weight": 1}, {"from": "C1", "label": 1, "to": "R02", "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+>>Starting DWM99
+Truth File Name= test_data.txt

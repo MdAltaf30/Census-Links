@@ -1,0 +1,25 @@
+1|Spitz R.,1701 Westpark dr, apt 110
+2|Spitz Matildaa,1701 Westpark drive, apt 110
+3|Gebslardt Walter Senior,1701 Westpark, apt 110
+4|Gebslardt Enia,1701 Westpark Drv, apt 110
+5|B Frank,9000 kanban Road, little rock
+6|B Ida,9001 kanban Rd, little rock
+7|Williams Will,09911 westeast street, arkansas
+8|Williams E,9912 WE street, arkansas
+9|Miencci Anthony,1000 Oak Street, Pine  City
+10|Miencci T,1000 Oak Street, Pine Wd City
+11|Miencci Mildred,1000 Oak Street, Pine Wood City
+12|Koenig Henry,9000 West East St, Chicago
+13|Koenig M,9000 West East Street, Chicago
+14|Koenig Harold,9000 West East Street, Chicago
+15|Formica Camilo,0911 Nayantara Rd Drive, IL
+16|Formica Rose,0911 Nayantara Rd Drive, IL
+17|Formica Salvo,0911 Nayantara Road Drive, IL
+18|Butler Vincent,9888 Cosmic World St, ARK
+19|Butler Helen,9889 Cosmic World Street, ARK
+20|Butler V H,9890 Cosmic World Street, ARK
+21|Butler Ellen,34332 Street Ave
+22|Karte Ray,34333 Street Ave
+23|Karte Grace,18899 Claifornia Street
+24|Petric Raymond,18900 Claifornia Street Avenue
+25|Petric F,18900 Claifornia Street Avenue

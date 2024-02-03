@@ -1,0 +1,6 @@
+Type_label = ttk.Label(form_frame, text="Type:", font=("Arial", 12))
+Type_label.grid(row=4, column=0, sticky=tk.W, pady=5)
+Types = ["US", "Puerto Rico"]
+Type_var = tk.StringVar(window)
+Type_dropdown = ttk.Combobox(form_frame, textvariable=Type_var, values=Types, font=("Arial", 12), state="readonly")
+Type_dropdown.grid(row=3, column=1, pady=5)

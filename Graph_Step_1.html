@@ -1,0 +1,292 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+                <link href="lib/tom-select/tom-select.css" rel="stylesheet">
+                <script src="lib/tom-select/tom-select.complete.min.js"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 1000px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="C10">C10</option>
+                                
+                                    <option value="C9">C9</option>
+                                
+                                    <option value="C11">C11</option>
+                                
+                                    <option value="C6">C6</option>
+                                
+                                    <option value="C1">C1</option>
+                                
+                                    <option value="C2">C2</option>
+                                
+                                    <option value="C8">C8</option>
+                                
+                                    <option value="C7">C7</option>
+                                
+                                    <option value="C3">C3</option>
+                                
+                                    <option value="C4">C4</option>
+                                
+                                    <option value="C5">C5</option>
+                                
+                                    <option value="a1">a1</option>
+                                
+                                    <option value="a2">a2</option>
+                                
+                                    <option value="a3">a3</option>
+                                
+                                    <option value="b1">b1</option>
+                                
+                                    <option value="b2">b2</option>
+                                
+                                    <option value="b3">b3</option>
+                                
+                                    <option value="c1">c1</option>
+                                
+                                    <option value="c2">c2</option>
+                                
+                                    <option value="c3">c3</option>
+                                
+                                    <option value="d1">d1</option>
+                                
+                                    <option value="d2">d2</option>
+                                
+                                    <option value="d3">d3</option>
+                                
+                                    <option value="e1">e1</option>
+                                
+                                    <option value="e2">e2</option>
+                                
+                                    <option value="e3">e3</option>
+                                
+                                    <option value="f1">f1</option>
+                                
+                                    <option value="f2">f2</option>
+                                
+                                    <option value="f3">f3</option>
+                                
+                                    <option value="g1">g1</option>
+                                
+                                    <option value="g2">g2</option>
+                                
+                                    <option value="g3">g3</option>
+                                
+                                    <option value="h1">h1</option>
+                                
+                                    <option value="h2">h2</option>
+                                
+                                    <option value="h3">h3</option>
+                                
+                                    <option value="i1">i1</option>
+                                
+                                    <option value="i2">i2</option>
+                                
+                                    <option value="i3">i3</option>
+                                
+                                    <option value="j1">j1</option>
+                                
+                                    <option value="j2">j2</option>
+                                
+                                    <option value="j3">j3</option>
+                                
+                                    <option value="k1">k1</option>
+                                
+                                    <option value="k2">k2</option>
+                                
+                                    <option value="k3">k3</option>
+                                
+                                    <option value="l1">l1</option>
+                                
+                                    <option value="l2">l2</option>
+                                
+                                    <option value="l3">l3</option>
+                                
+                                    <option value="m1">m1</option>
+                                
+                                    <option value="m2">m2</option>
+                                
+                                    <option value="n1">n1</option>
+                                
+                                    <option value="n2">n2</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "blue", "id": "C10", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C10", "shape": "image", "size": 30, "title": "C10"}, {"color": "blue", "id": "C9", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C9", "shape": "image", "size": 30, "title": "C9"}, {"color": "blue", "id": "C11", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C11", "shape": "image", "size": 30, "title": "C11"}, {"color": "blue", "id": "C6", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C6", "shape": "image", "size": 30, "title": "C6"}, {"color": "blue", "id": "C1", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C1", "shape": "image", "size": 30, "title": "C1"}, {"color": "blue", "id": "C2", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C2", "shape": "image", "size": 30, "title": "C2"}, {"color": "blue", "id": "C8", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C8", "shape": "image", "size": 30, "title": "C8"}, {"color": "blue", "id": "C7", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C7", "shape": "image", "size": 30, "title": "C7"}, {"color": "blue", "id": "C3", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C3", "shape": "image", "size": 30, "title": "C3"}, {"color": "blue", "id": "C4", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C4", "shape": "image", "size": 30, "title": "C4"}, {"color": "blue", "id": "C5", "image": "https://github.com/Univ-Of-Arkansas-at-LITTLE-ROCK/CensusBureauNameAddress/blob/main/Household%20Graph/Image.png?raw=true", "label": "C5", "shape": "image", "size": 30, "title": "C5"}, {"color": "#97c2fc", "id": "a1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Alivia Hogan", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Alivia Hogan,44 E. WEST ST ASHLAND,OHIO"}, {"color": "#97c2fc", "id": "a2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Ginny Hogan", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Ginny Hogan,44 E. W STREET ASHLAND,OH"}, {"color": "#97c2fc", "id": "a3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Maddy Hogan", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Maddy Hogan,44 E. W ST AL,OH"}, {"color": "#97c2fc", "id": "b1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Aliviya H", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Aliviya H,131 IROQUOIS ST SG,MI"}, {"color": "#97c2fc", "id": "b2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Ginarclo Hogan", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Ginarclo Hogan,131 IROQUOIS STREET SOUTHGATE,MIAMI"}, {"color": "#97c2fc", "id": "b3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Maddison Hogan", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Maddison Hogan,131 IROQUOIS STREET SG,MIAMI"}, {"color": "#97c2fc", "id": "c1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Kaylinn Lyon", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Kaylinn Lyon,8779 WINDSOR STREET. FUQUAY VARINA,NC"}, {"color": "#97c2fc", "id": "c2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Wheeler Angel", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Wheeler Angel,8779 WINDSOR ST. FUQUAY VARINA,NC"}, {"color": "#97c2fc", "id": "c3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Gerardo M.", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Gerardo M.,8779 WINDSOR ST. FUQUAY VARINA,NORTH CAROLINA"}, {"color": "#97c2fc", "id": "d1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Kayala Wills", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Kayala Wills,611 PENN STR LONG BRANCH,NJ"}, {"color": "#97c2fc", "id": "d2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Angela Wheeler", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Angela Wheeler,611 PENN STREET LONG BRANCH,NJ"}, {"color": "#97c2fc", "id": "d3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Gerrardo W.", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Gerrardo W.,611 PENN ST LONG BRANCH,NEW JERSEY"}, {"color": "#97c2fc", "id": "e1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Kayala Wills", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Kayala Wills,7075 PRINCESS ST LINDEN,NJ"}, {"color": "#97c2fc", "id": "e2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Virginia Crossby", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Virginia Crossby,7075 PRINCESS STREET LINDEN,NEW JERSEY"}, {"color": "#97c2fc", "id": "e3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Iris Bowenn", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Iris Bowenn,7075 PRINCESS STREET LINDEN,NJ"}, {"color": "#97c2fc", "id": "f1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Kayala Williamson", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Kayala Williamson,132 T R,MONTGOMERY AL"}, {"color": "#97c2fc", "id": "f2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "virginia Crosby", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "virginia Crosby,132 TENSAW RD,MONTGOMERY AL"}, {"color": "#97c2fc", "id": "f3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Iris B.", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Iris B.,132 TENSAW ROAD,MONTGOMERY AL"}, {"color": "#97c2fc", "id": "g1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Sabrina Andrew", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Sabrina Andrew,7459 GULF L. RAEFORD,NC"}, {"color": "#97c2fc", "id": "g2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Elena Curtiss", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Elena Curtiss,7459 GULF LANE RAEFORD,NORTH CAROLINA"}, {"color": "#97c2fc", "id": "g3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Ruby Hoppkins", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Ruby Hoppkins,7459 G LANE RAEFORD,NC"}, {"color": "#97c2fc", "id": "h1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Sabrina Andrew J", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Sabrina Andrew J,4667 BENNING RD SOUTHEAST,WASHINGTON AR"}, {"color": "#97c2fc", "id": "h2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Elenia Curts", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Elenia Curts,4667 BENNING ROAD SOUTHEAST,WASHINGTON ARKANSAS"}, {"color": "#97c2fc", "id": "h3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Ruby Hopkin", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Ruby Hopkin,4667 BENNING R. SOUTHEAST,WASHINGTON AR"}, {"color": "#97c2fc", "id": "i1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Tamia D.", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Tamia D.,809 N PEG SHOP DR. LADSON,SC"}, {"color": "#97c2fc", "id": "i2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Carina Burnet", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Carina Burnet,809 NORTH PEG SHOP DRIVE LADSON,SC"}, {"color": "#97c2fc", "id": "i3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Presley Colon", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Presley Colon,809 NORTH PEG SHOP DR. LADSON,SC"}, {"color": "#97c2fc", "id": "j1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Tamia Dunn", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Tamia Dunn,9057 VERMONT RD COCKEYSVILLE,MD"}, {"color": "#97c2fc", "id": "j2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Carina Burnett Jr", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Carina Burnett Jr,9057 VERMONT ROAD COCKEYSVILLE,MD"}, {"color": "#97c2fc", "id": "j3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Presley Colonn", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Presley Colonn,9057 VERMONT R. COCKEYSVILLE,MD"}, {"color": "#97c2fc", "id": "k1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Jewel Zimmermann", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Jewel Zimmermann,401 FAIRHILL CRT,ANNAPOLIS MD"}, {"color": "#97c2fc", "id": "k2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Pr Hoffman", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Pr Hoffman,401 FAIRHILL COURT,ANNAPOLIS MD"}, {"color": "#97c2fc", "id": "k3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Gavin Gray Jr", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Gavin Gray Jr,401 FAIRHILL COURT,ANNAPOLIS MD"}, {"color": "#97c2fc", "id": "l1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Jewel Zimmerman Jr", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Jewel Zimmerman Jr,1521 159TH AVE,SAN LEANDRO CA"}, {"color": "#97c2fc", "id": "l2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Prince Hoffman", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Prince Hoffman,1521 159TH AVENUE,SA. CA"}, {"color": "#97c2fc", "id": "l3", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Gavin Gray", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Gavin Gray,1521 159TH AVENUE,SAN LEANDRO CA"}, {"color": "#97c2fc", "id": "m1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Seamus Low", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Seamus Low,883 RODNEY DR,NASHVILLE TN"}, {"color": "#97c2fc", "id": "m2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Noel Atkinson A.", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Noel Atkinson A.,883 RODNEY DRIVE,NASHVILLE TN"}, {"color": "#97c2fc", "id": "n1", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Seamus Low", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Seamus Low,832 51ST STREET NE,WASHINGTON AR"}, {"color": "#97c2fc", "id": "n2", "image": "https://github.com/OnaisKhanMohammed/CensusBureauDataEntry/blob/main/person.png?raw=true", "label": "Noel Atkin", "labelHighlightBold": true, "shape": "image", "size": 15, "text_color": "white", "title": "Noel Atkin,832 51ST STR NORTHEAST,WASHINGTON AR"}]);
+                  edges = new vis.DataSet([{"arrowStrikethrough": false, "color": "black", "from": "C10", "to": "C9", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C11", "to": "C6", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C1", "to": "C2", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C10", "to": "C8", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C7", "to": "C8", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C8", "to": "C9", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C3", "to": "C4", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C4", "to": "C5", "width": 2}, {"arrowStrikethrough": false, "color": "black", "from": "C3", "to": "C6", "width": 2}, {"color": "#00ff00", "from": "C1", "to": "a1", "width": 3}, {"color": "#00ff00", "from": "C1", "to": "a2", "width": 3}, {"color": "#00ff00", "from": "C1", "to": "a3", "width": 3}, {"color": "#00ff00", "from": "C2", "to": "b1", "width": 3}, {"color": "#00ff00", "from": "C2", "to": "b2", "width": 3}, {"color": "#00ff00", "from": "C2", "to": "b3", "width": 3}, {"color": "#00ff00", "from": "C3", "to": "c1", "width": 3}, {"color": "#00ff00", "from": "C3", "to": "c2", "width": 3}, {"color": "#00ff00", "from": "C3", "to": "c3", "width": 3}, {"color": "#00ff00", "from": "C4", "to": "d1", "width": 3}, {"color": "#00ff00", "from": "C4", "to": "d2", "width": 3}, {"color": "#00ff00", "from": "C4", "to": "d3", "width": 3}, {"color": "#00ff00", "from": "C4", "to": "e1", "width": 3}, {"color": "#00ff00", "from": "C4", "to": "e2", "width": 3}, {"color": "#00ff00", "from": "C4", "to": "e3", "width": 3}, {"color": "#00ff00", "from": "C5", "to": "f1", "width": 3}, {"color": "#00ff00", "from": "C5", "to": "f2", "width": 3}, {"color": "#00ff00", "from": "C5", "to": "f3", "width": 3}, {"color": "#00ff00", "from": "C3", "to": "g1", "width": 3}, {"color": "#00ff00", "from": "C3", "to": "g2", "width": 3}, {"color": "#00ff00", "from": "C3", "to": "g3", "width": 3}, {"color": "#00ff00", "from": "C6", "to": "h1", "width": 3}, {"color": "#00ff00", "from": "C6", "to": "h2", "width": 3}, {"color": "#00ff00", "from": "C6", "to": "h3", "width": 3}, {"color": "#00ff00", "from": "C7", "to": "i1", "width": 3}, {"color": "#00ff00", "from": "C7", "to": "i2", "width": 3}, {"color": "#00ff00", "from": "C7", "to": "i3", "width": 3}, {"color": "#00ff00", "from": "C8", "to": "j1", "width": 3}, {"color": "#00ff00", "from": "C8", "to": "j2", "width": 3}, {"color": "#00ff00", "from": "C8", "to": "j3", "width": 3}, {"color": "#00ff00", "from": "C9", "to": "k1", "width": 3}, {"color": "#00ff00", "from": "C9", "to": "k2", "width": 3}, {"color": "#00ff00", "from": "C9", "to": "k3", "width": 3}, {"color": "#00ff00", "from": "C10", "to": "l1", "width": 3}, {"color": "#00ff00", "from": "C10", "to": "l2", "width": 3}, {"color": "#00ff00", "from": "C10", "to": "l3", "width": 3}, {"color": "#00ff00", "from": "C11", "to": "m1", "width": 3}, {"color": "#00ff00", "from": "C11", "to": "m2", "width": 3}, {"color": "#00ff00", "from": "C6", "to": "n1", "width": 3}, {"color": "#00ff00", "from": "C6", "to": "n2", "width": 3}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+                    network.on("click", neighbourhoodHighlight);
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
