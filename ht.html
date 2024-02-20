@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form with 20 Components</title>
+    <style>
+     
+        /* CSS styles for body and form */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f3f3f3; /* Light gray background */
+           
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* CSS styles for form elements */
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea,
+        select {
+            margin-bottom: 15px;
+            width: calc(100% - 22px); /* Adjusted width for better alignment */
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="reset"] {
+            background-color: #ddd;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        button[type="reset"]:hover,
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* CSS styles for additional content */
+        .tags {
+            margin-top: 50px;
+            margin-left: 50px;
+            color: #333; /* Dark gray text color */
+        }
+
+        .tags h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .tags span {
+            display: block;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .tags img {
+            display: block;
+            margin-bottom: 20px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .tags blockquote,
+        .tags pre {
+            margin-left: 20px;
+            margin-top: 10px;
+            padding-left: 20px;
+            border-left: 3px solid #007bff; /* Blue border color */
+        }
+
+        .tags ol,
+        .tags ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .tags ol li,
+        .tags ul li {
+            margin-bottom: 5px;
+        }
+
+        .tags form {
+            margin-bottom: 20px;
+        }
+
+        .tags button {
+            font-size: 18px;
+        }
+
+        .tags code {
+            font-family: Consolas, Monaco, monospace;
+            background-color: #f8f9fa; /* Light gray background for code */
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .tags table {
+            border-collapse: collapse;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        .tags th,
+        .tags td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .tags th {
+            background-color: #f2f2f2; /* Light gray background for table header */
+            font-size: 16px;
+        }
+
+        .tags hr {
+            border: none;
+            border-top: 2px solid #ddd; /* Light gray border color */
+            margin: 20px 0;
+        }
+   
+    </style>
+</head>
+<body>
+    <h1>Answer 1</h1><br>
+    <h2>Admission Form</h2>
+
+    <form action="submit.php" method="post">
+
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required placeholder="Enter your password"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    <label for="subscribe">Subscribe to Notifications</label> <br><br>
+
+    <label for="message">Comments:</label>
+    <textarea id="message" name="message" rows="4" required placeholder="Type your comment here"></textarea><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="India">India</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <option value="USA">USA</option>
+    </select><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="1" max="100" placeholder="Enter your age"><br><br>
+
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate" placeholder="Select your birthdate"><br><br>
+
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+    <label for="volume">Enter Your Overall Percentage:</label>
+    <input type="range" id="volume" name="volume" min="0" max="100" value="50"><br><br>
+
+    <label for="file">Upload Transcripts:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <input type="hidden" name="hiddenField" value="hiddenValue">
+    <input type="hidden" name="hiddenField2"><br><br>
+
+    <fieldset>
+        <legend>Interests:</legend>
+        <input type="checkbox" id="interest1" name="interests" value="sports">
+        <label for="interest1">Sports</label>
+        <input type="checkbox" id="interest2" name="interests" value="music">
+        <label for="interest2">Music</label>
+        
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Preferred Language:</legend>
+        <input type="radio" id="lang1" name="language" value="english">
+        <label for="lang1">English</label>
+        <input type="radio" id="lang2" name="language" value="spanish">
+        <label for="lang2">Spanish</label>
+        
+    </fieldset><br><br>
+
+    <label for="city">Preferred Cities (Select multiple):</label>
+    <select id="city" name="cities" multiple>
+        <option value="newyork">New York</option>
+        <option value="london">London</option>
+        <option value="tokyo">Tokyo</option>
+        
+    </select><br><br>
+
+    <label for="website">Website URL:</label>
+    <input type="url" id="website" name="website" placeholder="Enter your website URL"><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+
+    <label for="rating">Rate from 1 to 10:</label>
+    <input type="range" id="rating" name="rating" min="1" max="10" step="1"><br><br>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button><br><br>
+</form>
+    <div class="tags" style="margin-top: 50px;margin-left: 50px;">
+        <h1>1. h1 tag is used to define the main heading or title of a document </h1><br>
+        
+        <span style="margin-bottom: 10px;">2. </span><img src="https://ualr.edu/news-archive/files/2016/08/UALRsign.gif"
+            alt="" style="height: 300px;width: auto; margin-bottom: 10px;">
+        <br>
+            <i>3. The purpose of the i tag is to apply a visual emphasis to the enclosed text, typically rendering it in italics.</i><br>
+        <br>
+        <address>
+            4. The address tag defines the contact information for the author/owner of a document or an article.<br><br>
+            <a href="https://ualr.edu/">5. University of Little Rock</a>,<br>
+            2801 S University Ave,<br> Little Rock, Arkansas - 72204
+        </address>
+        <br>
+        <u>6. The purpose of the u tag is used to underline the text.</u>
+        <br><br>
+        <s>7.The s tag is the simplest way to create a strikethrough text in HTML. </s><br><br>
+        <b>8. This is a bold tag, used to bold the text</b><br>
+        <span><br>9. This is Ordered List</span>
+        <ol>
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+        </ol>
+
+        <blockquote> 
+         <p>10.This is a quoted text(blockquote).</p></blockquote>
+<br><br>
+        <span>11. This is Example of Unordered list</span>
+        <ul>
+            <li>Element 1</li>
+            <li>Element 2</li>
+            <li>Element 3</li>
+        </ul>
+        <form action="">12. This is a form tag and use to create an HTML form for user input: <br><br>
+            <label for="">Enter your Name :  </label><input type="text" name="" id=""><br><br>
+            <label for="">Enter your Email:  </label><input type="password" name="" id=""><br><br>
+            <button style="font-size: 20PX; margin-left: 80px;">Login</button>
+        </form><br><br>
+        <button>13. This is a button</button><br><br>
+        <code>14. Used to write code</code>
+        <br><br>
+        <b>15.<b>
+        <table style="border: 2px solid black; margin-top: 20px; font-size: 30px;">
+            <th>coloum 1</th>
+            <th>Coloum 2</th>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+            </tr>
+            <tr>
+                <td>data</td>
+                <td>data</td>
+            </tr></table>
+            <h2>16.h2: Second-level heading, used for subsections.</h2><br>
+            <h3>17.h3: Third-level heading, denotes subsections within h2. </h3><br>
+            <h4>18.h4: Fourth-level heading, for sub-subsections in h3.</h4><br>
+            <h5>19.h5: Fifth-level heading, used for subsections in h4.</h5><br>
+            <h6>20.h6: Sixth-level heading, the lowest hierarchy, for subsections in h5.</h6><br>
+        <label>21.Used in conjunction with form elements to provide a user-readable description.</label><br>
+        <blockquote>22.Defines a block of text that is a quotation from another source.</blockquote><br>
+        <em>23.Represents emphasized text, typically rendered in italics.</em><br>
+        <strong>24.Represents strong importance or importance with bold formatting.</strong><br>
+        <span>25.Used for applying styles or scripting to a specific part of the text.</span><br>
+        <br>26.Inserts a line break, forcing subsequent content to appear on a new line.<br>
+        <hr>27.Represents a horizontal rule, used to separate content.</hr><br>
+        <pre>28.Defines preformatted text, preserving both spaces and line breaks.</pre><br>
+        <abbr>29.Represents an abbreviation or acronym, often providing additional information when hovered over.</abbr><br>
+        <cite>30.Specifies the title of a creative work, such as a book or a movie.</cite><br>
+        <sub>31.Defines subscript text, typically used for footnotes or chemical formulas.</sub><br>
+        <sup>32.Represents superscript text, often used for mathematical notation or ordinal indicators.</sup><br>
+        <small>33.Reduces the text size to make it appear smaller.</small><br>
+        <del>34.Represents deleted text, indicating content that has been removed.</del><br>
+        <ins>35.Represents inserted text, indicating content that has been added.</ins><br>
+
+    </div>
+</body>
+
+</html>

@@ -32,16 +32,12 @@ last_df = result_df.join(df3, on='ID', how='inner')
 # Order the result by 'ssn'
 last_df_ordered = last_df.orderBy("ssn")
 last_df_ordered=last_df_ordered.drop("ID")
-ssn_cluster_dict = last_df.select("ssn", "Cluster").rdd.collectAsMap()
- 
-# Show the ordered result
+last_df_ordered=last_df_ordered.drop("Cluster")
+
 last_df_ordered.show()
-with open('ssn_cluster_dict.csv', 'w') as file:
-    for ssn, cluster in ssn_cluster_dict.items():
-        file.write(f"{ssn},{cluster}\n")
  #
 
-print(ssn_cluster_dict)
+
  
 # Stop the Spark session
 spark.stop()

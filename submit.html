@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+</head>
+<body>
+    <h1>Form Submission Details</h1>
+
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $name = $_POST["name"];
+        $email = $_POST["email"];
+        $password = $_POST["password"];
+        $gender = $_POST["gender"];
+        $subscribe = isset($_POST["subscribe"]) ? "Yes" : "No";
+        $message = $_POST["message"];
+        $country = $_POST["country"];
+        $age = $_POST["age"];
+        $birthdate = $_POST["birthdate"];
+        $color = $_POST["color"];
+        $volume = $_POST["volume"];
+        // You can handle the file upload here if necessary
+
+        // Display the submitted data
+        echo "<p><strong>Name:</strong> $name</p>";
+        echo "<p><strong>Email:</strong> $email</p>";
+        echo "<p><strong>Password:</strong> $password</p>";
+        echo "<p><strong>Gender:</strong> $gender</p>";
+        echo "<p><strong>Subscribe to Notifications:</strong> $subscribe</p>";
+        echo "<p><strong>Comments:</strong> $message</p>";
+        echo "<p><strong>Country:</strong> $country</p>";
+        echo "<p><strong>Age:</strong> $age</p>";
+        echo "<p><strong>Birthdate:</strong> $birthdate</p>";
+        echo "<p><strong>Favorite Color:</strong> <span style='color:color'>$color</span></p>";
+        echo "<p><strong>Overall Percentage:</strong> $volume%</p>";
+        // You can display additional submitted data here
+    
+    } else {
+        echo "<p>No data submitted. Please fill out the form and submit it.</p>";
+    }
+    ?>
+
+    <p><a href="javascript:history.go(-1)">Go Back</a></p>
+</body>
+</html>
